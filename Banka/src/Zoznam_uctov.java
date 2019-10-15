@@ -1,7 +1,5 @@
 import javax.sound.midi.Soundbank;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
@@ -16,7 +14,7 @@ public class Zoznam_uctov {
         String line;
         this.last_used_id = Integer.parseInt(in.readLine());
         while ((line = in.readLine())!=null){
-            String udaje [] = line.split(" ");
+            String udaje [] = line.split("-");
             Ucet novy_ucet = new Ucet(Integer.parseInt(udaje[0]), Integer.parseInt(udaje[1]), Double.parseDouble(udaje[2]));
             zoznam_uctov.put(novy_ucet.getUcet_id(), novy_ucet);
         }
@@ -24,7 +22,7 @@ public class Zoznam_uctov {
 
     public void vypisZoznamu(){
         for (int id : zoznam_uctov.keySet()) {
-            System.out.println(zoznam_uctov.get(id).getUcet_id()+" "+zoznam_uctov.get(id).getUser_id()+" "+zoznam_uctov.get(id).getBalance());
+            System.out.println("ID uctu: "+zoznam_uctov.get(id).getUcet_id()+" , ID klienta uctu: "+zoznam_uctov.get(id).getUser_id()+" , Zostatok: "+zoznam_uctov.get(id).getBalance());
         }
     }
 
@@ -33,7 +31,7 @@ public class Zoznam_uctov {
         for (int id : zoznam_uctov.keySet()) {
             if(zoznam_uctov.get(id).getUser_id()==ID) {
                 nachadza_sa = true;
-                System.out.println(zoznam_uctov.get(id).getUcet_id() + " " + zoznam_uctov.get(id).getUser_id() + " " + zoznam_uctov.get(id).getBalance());
+                System.out.println("ID uctu: "+zoznam_uctov.get(id).getUcet_id()+" , ID klienta uctu: "+zoznam_uctov.get(id).getUser_id()+" , Zostatok: "+zoznam_uctov.get(id).getBalance());
             }
         }
         if(!nachadza_sa){
@@ -57,7 +55,7 @@ public class Zoznam_uctov {
         boolean nachadza_sa = false;
         for (int id : zoznam_uctov.keySet()) {
             if(zoznam_uctov.get(id).getUser_id()==ID) {
-                System.out.println(zoznam_uctov.get(id).getUcet_id()+" "+zoznam_uctov.get(id).getUser_id()+" "+zoznam_uctov.get(id).getBalance());
+                System.out.println("ID uctu: "+zoznam_uctov.get(id).getUcet_id()+" , ID klienta uctu: "+zoznam_uctov.get(id).getUser_id()+" , Zostatok: "+zoznam_uctov.get(id).getBalance());
                 nachadza_sa = true;
             }
         }
@@ -99,5 +97,17 @@ public class Zoznam_uctov {
 
     public Map<Integer, Ucet> getZoznam_uctov() {
         return zoznam_uctov;
+    }
+
+    public void ulozenie() throws IOException {
+        BufferedWriter out = new BufferedWriter(new FileWriter("ucty"));
+        System.out.println(last_used_id);
+        out.write(last_used_id+"");
+        out.newLine();
+        for (int id : zoznam_uctov.keySet()){
+            out.write(zoznam_uctov.get(id).getUcet_id()+"."+zoznam_uctov.get(id).getUser_id()+"."+zoznam_uctov.get(id).getBalance());
+            out.newLine();
+        }
+        out.close();
     }
 }

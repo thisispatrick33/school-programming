@@ -1,10 +1,9 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.Map;
 import java.util.TreeMap;
 
 public class Zoznam_klientov {
+
     private Map<Integer, Klient> zoznam_klientov;
     private int last_used_id;
 
@@ -16,7 +15,7 @@ public class Zoznam_klientov {
         String line;
         this.last_used_id = Integer.parseInt(in.readLine());
         while ((line = in.readLine())!=null){
-            String udaje [] = line.split(" ");
+            String udaje [] = line.split("-");
             Klient novy_klient = new Klient(Integer.parseInt(udaje[0]), udaje[1], udaje[2], udaje[3], udaje[4]);
             zoznam_klientov.put(novy_klient.getUser_id(), novy_klient);
         }
@@ -26,7 +25,7 @@ public class Zoznam_klientov {
 
     public void vypisZoznamu(){
         for (int id : zoznam_klientov.keySet()) {
-            System.out.println(zoznam_klientov.get(id).getUser_id()+" "+zoznam_klientov.get(id).getMeno()+" "+zoznam_klientov.get(id).getPriezvisko()+" "+zoznam_klientov.get(id).getAdresa()+" "+zoznam_klientov.get(id).getCOP());
+            System.out.println("ID: "+zoznam_klientov.get(id).getUser_id()+" , Meno: "+zoznam_klientov.get(id).getMeno()+" , Priezvisko: "+zoznam_klientov.get(id).getPriezvisko()+" , Adresa: "+zoznam_klientov.get(id).getAdresa()+" , COP: "+zoznam_klientov.get(id).getCOP());
         }
     }
     public void vypisKlienta(int id) {
@@ -37,7 +36,7 @@ public class Zoznam_klientov {
             }
         }
         if (nachadza_sa) {
-            System.out.println(zoznam_klientov.get(id).getUser_id() + " " + zoznam_klientov.get(id).getMeno() + " " + zoznam_klientov.get(id).getPriezvisko() + " " + zoznam_klientov.get(id).getAdresa() + " " + zoznam_klientov.get(id).getCOP());
+            System.out.println("ID: "+zoznam_klientov.get(id).getUser_id()+" , Meno: "+zoznam_klientov.get(id).getMeno()+" , Priezvisko: "+zoznam_klientov.get(id).getPriezvisko()+" , Adresa: "+zoznam_klientov.get(id).getAdresa()+" , COP: "+zoznam_klientov.get(id).getCOP());
         }
         else {
             System.out.println("Klient s takymto ID neexistuje");
@@ -83,5 +82,17 @@ public class Zoznam_klientov {
             }
         }
         return nachadza_sa;
+    }
+
+    public void ulozenie() throws IOException {
+        BufferedWriter out = new BufferedWriter(new FileWriter("klienti"));
+        System.out.println(last_used_id);
+        out.write(last_used_id+"");
+        out.newLine();
+        for (int id : zoznam_klientov.keySet()){
+            out.write(zoznam_klientov.get(id).getUser_id()+"."+zoznam_klientov.get(id).getMeno()+"."+zoznam_klientov.get(id).getPriezvisko()+"."+zoznam_klientov.get(id).getAdresa()+"."+zoznam_klientov.get(id).getCOP());
+            out.newLine();
+        }
+        out.close();
     }
 }

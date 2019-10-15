@@ -20,19 +20,20 @@ public class PSVM {
             System.out.println("7 - vytvorit novy ucet");
             System.out.println("8 - odstranit ucet");
             System.out.println("9 - zmena zostatku");
+            System.out.println("10 - ulozenie dat a ukoncenie programu");
             a = sc.nextInt();
             if(a==1){
                 System.out.println();
                 zoznam_klientov.vypisZoznamu();
                 System.out.println();
             }
-            if(a==2){
+            else if(a==2){
                 System.out.println("Zadajte ID klienta ktoreho chcete vypisat");
 
                 zoznam_klientov.vypisKlienta(sc.nextInt());
                 System.out.println();
             }
-            if(a==3){
+            else if(a==3){
                 int id = zoznam_klientov.getLast_used_id()+1;
                 zoznam_klientov.setLast_used_id(id);
                 sc.nextLine();
@@ -47,21 +48,21 @@ public class PSVM {
                 Klient novy = new Klient(id, meno, priezvisko, adresa, COP);
                 zoznam_klientov.pridajKlienta(novy);
             }
-            if(a==4){
+            else if(a==4){
                 System.out.println("Zadajte ID klienta ktoreho chcete odstranit");
                 zoznam_klientov.odstranKlienta(sc.nextInt());
             }
-            if(a==5){
+            else if(a==5){
                 System.out.println();
                 zoznam_uctov.vypisZoznamu();
                 System.out.println();
             }
-            if(a==6){
+            else if(a==6){
                 System.out.println("Zadajte ID klienta ktoreho ucty chcete vypisat");
                 zoznam_uctov.vypisUctu(sc.nextInt());
                 System.out.println();
             }
-            if(a==7){
+            else if(a==7){
                 int id = zoznam_uctov.getLast_used_id()+1;
                 zoznam_uctov.setLast_used_id(id);
                 sc.nextLine();
@@ -78,9 +79,68 @@ public class PSVM {
                     System.out.println();
                 }
             }
-            if(a==8){
+            else if(a==8){
                 System.out.println("Zadajte ID klienta ktoreho ucet chcete odstranit");
                 zoznam_uctov.odstranUctu(sc.nextInt());
+            }
+            else if(a==9){
+                System.out.println("Zadajte 1 pre vyber z uctu / 2 pre vklad na ucet");
+                int b = 0;
+                if ((b=sc.nextInt())==1){
+                    System.out.println("Zadajte sumu, ktoru chcete vybrat");
+                    double vyber = sc.nextDouble();
+                    System.out.println("Zadajte ID uctu na, z ktoreho chcete peniaze vybrat");
+                    int ID = sc.nextInt();
+                    boolean nachadza_sa = false;
+                    for (int i : zoznam_uctov.getZoznam_uctov().keySet()){
+                        if(ID==i){
+                            nachadza_sa = true;
+                            break;
+                        }
+                    }
+                    if(nachadza_sa){
+                        if(zoznam_uctov.getZoznam_uctov().get(ID).getBalance()<vyber){
+                            System.out.println("Vas zostatok na ucte je:"+zoznam_uctov.getZoznam_uctov().get(ID).getBalance());
+                            System.out.println("Nemozete vybrat: "+vyber);
+                        }
+                        else {
+                            zoznam_uctov.zmenaZostatku(ID, (zoznam_uctov.getZoznam_uctov().get(ID).getBalance()-vyber));
+                            System.out.println("Vyber prebehol uspesne!");
+                        }
+                    }
+                }
+                else if(b==2){
+                    System.out.println("Zadajte sumu, ktoru chcete vlozit");
+                    double vklad = sc.nextDouble();
+                    System.out.println("Zadajte ID uctu na, ktory chcete peniaze vlozit");
+                    int ID = sc.nextInt();
+                    boolean nachadza_sa = false;
+                    for (int i : zoznam_uctov.getZoznam_uctov().keySet()){
+                        if(ID==i){
+                            nachadza_sa = true;
+                            break;
+                        }
+                    }
+                    if(nachadza_sa){
+                        zoznam_uctov.zmenaZostatku(ID, (zoznam_uctov.getZoznam_uctov().get(ID).getBalance()+vklad));
+                        System.out.println("Peniaze sa uspsne vlozili");
+                    }
+                    else {
+                        System.out.println("Ucet s takymto ID neexistuje.");
+                    }
+
+                }else {
+                    System.out.println("Nezadali ste spravnu volbu.");
+                }
+            }else if(a==10){
+                zoznam_klientov.ulozenie();
+                zoznam_uctov.ulozenie();
+                System.out.println("Zmeny boli uspesne ulozene");
+                System.out.println("Shuting down.....");
+                System.exit(0);
+            }
+            else {
+                System.out.println("Nezadali ste spravnu moznost, skuste to znova");
             }
 
         }
