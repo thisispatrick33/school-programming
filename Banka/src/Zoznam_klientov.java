@@ -15,7 +15,7 @@ public class Zoznam_klientov {
         String line;
         this.last_used_id = Integer.parseInt(in.readLine());
         while ((line = in.readLine())!=null){
-            String udaje [] = line.split("-");
+            String udaje [] = line.split("@");
             Klient novy_klient = new Klient(Integer.parseInt(udaje[0]), udaje[1], udaje[2], udaje[3], udaje[4]);
             zoznam_klientov.put(novy_klient.getUser_id(), novy_klient);
         }
@@ -51,7 +51,7 @@ public class Zoznam_klientov {
 
     /* Odstranenie klienta */
 
-    public void odstranKlienta(int id){
+    public int odstranKlienta(int id){
         boolean nachadza_sa = false;
         for (int ID : zoznam_klientov.keySet()) {
             if (ID == id) {
@@ -63,7 +63,10 @@ public class Zoznam_klientov {
         }
         else {
             System.out.println("Klient s takymto ID neexistuje");
+            id = -12;
         }
+        return id;
+
     }
 
     public int getLast_used_id() {
@@ -90,7 +93,7 @@ public class Zoznam_klientov {
         out.write(last_used_id+"");
         out.newLine();
         for (int id : zoznam_klientov.keySet()){
-            out.write(zoznam_klientov.get(id).getUser_id()+"."+zoznam_klientov.get(id).getMeno()+"."+zoznam_klientov.get(id).getPriezvisko()+"."+zoznam_klientov.get(id).getAdresa()+"."+zoznam_klientov.get(id).getCOP());
+            out.write(zoznam_klientov.get(id).getUser_id()+"@"+zoznam_klientov.get(id).getMeno()+"@"+zoznam_klientov.get(id).getPriezvisko()+"@"+zoznam_klientov.get(id).getAdresa()+"@"+zoznam_klientov.get(id).getCOP());
             out.newLine();
         }
         out.close();

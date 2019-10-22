@@ -50,7 +50,8 @@ public class PSVM {
             }
             else if(a==4){
                 System.out.println("Zadajte ID klienta ktoreho chcete odstranit");
-                zoznam_klientov.odstranKlienta(sc.nextInt());
+                int e = zoznam_klientov.odstranKlienta(sc.nextInt());
+                zoznam_uctov.handleKlientDelete(e);
             }
             else if(a==5){
                 System.out.println();

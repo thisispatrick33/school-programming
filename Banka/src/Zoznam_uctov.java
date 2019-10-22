@@ -1,8 +1,6 @@
 import javax.sound.midi.Soundbank;
 import java.io.*;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.TreeMap;
+import java.util.*;
 
 public class Zoznam_uctov {
     private Map<Integer, Ucet> zoznam_uctov;
@@ -14,7 +12,7 @@ public class Zoznam_uctov {
         String line;
         this.last_used_id = Integer.parseInt(in.readLine());
         while ((line = in.readLine())!=null){
-            String udaje [] = line.split("-");
+            String udaje [] = line.split("@");
             Ucet novy_ucet = new Ucet(Integer.parseInt(udaje[0]), Integer.parseInt(udaje[1]), Double.parseDouble(udaje[2]));
             zoznam_uctov.put(novy_ucet.getUcet_id(), novy_ucet);
         }
@@ -86,6 +84,17 @@ public class Zoznam_uctov {
         }
 
     }
+    public void handleKlientDelete(int ID){
+        List <Integer> indexy = new LinkedList<>();
+        for (int id : zoznam_uctov.keySet()) {
+            if(zoznam_uctov.get(id).getUser_id()==ID) {
+                indexy.add(id);
+            }
+        }
+        for (int Id : indexy){
+            zoznam_uctov.remove(Id);
+        }
+    }
 
     public int getLast_used_id() {
         return last_used_id;
@@ -105,7 +114,7 @@ public class Zoznam_uctov {
         out.write(last_used_id+"");
         out.newLine();
         for (int id : zoznam_uctov.keySet()){
-            out.write(zoznam_uctov.get(id).getUcet_id()+"."+zoznam_uctov.get(id).getUser_id()+"."+zoznam_uctov.get(id).getBalance());
+            out.write(zoznam_uctov.get(id).getUcet_id()+"@"+zoznam_uctov.get(id).getUser_id()+"@"+zoznam_uctov.get(id).getBalance());
             out.newLine();
         }
         out.close();
