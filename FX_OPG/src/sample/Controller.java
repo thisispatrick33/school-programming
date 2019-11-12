@@ -5,22 +5,27 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
+import javafx.scene.input.MouseEvent;
+
+import java.util.Random;
 
 public class Controller {
-    int suma = 0;
+    Random rn = new Random();
+    @FXML
+    Button btn;
 
     @FXML
-    private Label label;
+    public void klik(MouseEvent mouseEvent) {
+        System.out.println("vedla");
+    }
 
     @FXML
-    private Button btn;
+    public void catchMe(MouseEvent mouseEvent) {
+        System.out.println("chytil si ma");
+    }
 
     @FXML
-    private TextArea tf;
-
-    @FXML
-    void vypocitaj(ActionEvent event){
-        suma = Integer.parseInt(tf.getText());
-        label.setText(Integer.toString(suma*100));
+    public void move(MouseEvent mouseEvent) {
+        btn.relocate(rn.nextInt(400),rn.nextInt(400));
     }
 }
