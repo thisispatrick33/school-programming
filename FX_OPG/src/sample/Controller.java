@@ -6,6 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 
 import java.util.Random;
 
@@ -13,6 +14,8 @@ public class Controller {
     Random rn = new Random();
     @FXML
     Button btn;
+    @FXML
+    AnchorPane pane;
 
     @FXML
     public void klik(MouseEvent mouseEvent) {
@@ -26,6 +29,6 @@ public class Controller {
 
     @FXML
     public void move(MouseEvent mouseEvent) {
-        btn.relocate(rn.nextInt(400),rn.nextInt(400));
+        btn.relocate(rn.nextDouble()*(pane.getWidth()-btn.getWidth()),rn.nextDouble()*(pane.getHeight()-btn.getHeight()));
     }
 }
