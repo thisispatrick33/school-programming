@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class Zenit19kkd {
+class Zenit19kkd {
+    public static void main(String[] args){
+        System.out.println("2123273536");
+    }
 }

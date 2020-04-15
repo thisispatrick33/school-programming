@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class Zenit19kka {
+class Zenit19kka {
+    public static void main(String[] args) {
+        System.out.println(1.14);
+    }
 }

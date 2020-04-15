@@ -2,31 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5844b93-5bec-4aff-8d05-d7814e5003a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../18-2-2020-OPG-Vlakna/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Experimenty/src/sample/help.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kurzy/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kurzy/src/sample/Mena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kurzy/src/sample/meny" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zenit19ske.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zenit19skf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zenit19skg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zenit19skh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sietova_Hra/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vejry3SA2/src/VieZmiznut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Vir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Vyr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vlakna/src/Citanie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vlakna/src/Hlavna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vlakna/src/Konzument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vlakna/src/PSVM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vlakna/src/Producent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vlakna/src/VlaknoCitacie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vlakna/src/VlaknoVypisovacie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vlakna/src/tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18-2-2020-OPG-Vlakna/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18-2-2020-OPG-Vlakna/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Banka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Banka/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experimenty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experimenty/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experimenty/src/sample/help.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Experimenty/src/sample/help.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FX_OPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FX_OPG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/description.html" beforeDir="false" />
@@ -42,6 +42,40 @@
       <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/src/sample/Controller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/src/sample/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurzy/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurzy/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurzy/src/sample/Mena.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurzy/src/sample/Mena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurzy/src/sample/meny" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurzy/src/sample/meny" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/media/video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/src/media/video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PifPaf/PifPaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PifPaf/PifPaf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PifPaf/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PifPaf/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PifPaf/src/sample/scores" beforeDir="false" afterPath="$PROJECT_DIR$/../PifPaf/src/sample/scores" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SamoStudium/Zenit19ske.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SamoStudium/Zenit19ske.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zenit19kka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zenit19kka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zenit19kkb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zenit19kkb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zenit19kkc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zenit19kkc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zenit19kkd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zenit19kkd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zenit19kke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zenit19kke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zenit19kkf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zenit19kkf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sietova_Hra/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sietova_Hra/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/VieZmiznut.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/VieZmiznut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/Vir.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Vir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/Vyr.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Vyr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/Citanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/Citanie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/Hlavna.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/Hlavna.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/Konzument.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/Konzument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/PSVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/PSVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/Producent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/Producent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/VlaknoCitacie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/VlaknoCitacie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/VlaknoVypisovacie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/VlaknoVypisovacie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/tmp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,38 +89,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Zenit19skf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Zenit19skg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Zenit19skh.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Zenit19ske.java">
+        <entry file="file://$PROJECT_DIR$/src/zenit18skf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            <state relative-caret-position="432">
+              <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +110,16 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;</find>
+      <find>r.length</find>
+      <find>'</find>
+      <find>,</find>
+      <find>n</find>
+      <find>n</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -110,17 +130,25 @@
         <option value="$PROJECT_DIR$/src/Zenit19skg.java" />
         <option value="$PROJECT_DIR$/src/Zenit19skh.java" />
         <option value="$PROJECT_DIR$/src/Zenit19ske.java" />
+        <option value="$PROJECT_DIR$/src/Zenit19kka.java" />
+        <option value="$PROJECT_DIR$/src/Zenit19kkb.java" />
+        <option value="$PROJECT_DIR$/src/Zenit19kkc.java" />
+        <option value="$PROJECT_DIR$/src/Zenit19kkd.java" />
+        <option value="$PROJECT_DIR$/src/Zenit19kke.java" />
+        <option value="$PROJECT_DIR$/src/Zenit19kkf.java" />
+        <option value="$PROJECT_DIR$/src/SamoZapotocky.java" />
+        <option value="$PROJECT_DIR$/src/BankovyUcet.java" />
+        <option value="$PROJECT_DIR$/src/PSVM.java" />
+        <option value="$PROJECT_DIR$/src/Zenit18ske_v3.java" />
+        <option value="$PROJECT_DIR$/src/Zenit18ske_v2.java" />
+        <option value="$PROJECT_DIR$/src/Zenit18ske.java" />
+        <option value="$PROJECT_DIR$/src/Zenit18skc.java" />
+        <option value="$PROJECT_DIR$/src/testing.java" />
+        <option value="$PROJECT_DIR$/src/zenit18skf.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1612" />
@@ -132,8 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,22 +170,21 @@
             <path>
               <item name="SamoStudium" type="b2602c69:ProjectViewProjectNode" />
               <item name="SamoStudium" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SamoStudium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SamoStudium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -176,9 +201,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Zenit19ske" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Zenit19ske" />
+  <component name="RunManager" selected="Application.testing">
+    <configuration name="Zenit18skc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zenit18skc" />
+      <module name="SamoStudium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zenit18ske" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zenit18ske" />
+      <module name="SamoStudium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zenit18ske_v2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zenit18ske_v2" />
+      <module name="SamoStudium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing" />
+      <module name="SamoStudium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zenit18skf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zenit18skf" />
       <module name="SamoStudium" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,7 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Zenit19ske" />
+        <item itemvalue="Application.testing" />
+        <item itemvalue="Application.zenit18skf" />
+        <item itemvalue="Application.Zenit18skc" />
+        <item itemvalue="Application.Zenit18ske" />
+        <item itemvalue="Application.Zenit18ske_v2" />
       </list>
     </recent_temporary>
   </component>
@@ -201,18 +258,28 @@
       <option name="presentableId" value="Default" />
       <updated>1584129864490</updated>
       <workItem from="1584129873951" duration="331000" />
-      <workItem from="1584130282577" duration="5779000" />
+      <workItem from="1584130282577" duration="6168000" />
+      <workItem from="1584179088082" duration="9861000" />
+      <workItem from="1584191390898" duration="106000" />
+      <workItem from="1584472227175" duration="24000" />
+      <workItem from="1585320967486" duration="1260000" />
+      <workItem from="1585491161060" duration="129000" />
+      <workItem from="1585561066514" duration="11629000" />
+      <workItem from="1585580298876" duration="2901000" />
+      <workItem from="1585602732798" duration="1238000" />
+      <workItem from="1586078209056" duration="61000" />
+      <workItem from="1586936429364" duration="3074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6110000" />
+    <option name="totallyTimeSpent" value="36782000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2803838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -220,10 +287,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4793757" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28874025" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -231,8 +297,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -243,11 +310,110 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.303233" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32998884" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/PSVM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BankovyUcet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zenit19kka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <element signature="e#62#63#0" expanded="true" />
+            <element signature="e#102#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zenit19kkb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zenit19kkd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="38" selection-end-line="5" />
+          <folding>
+            <element signature="e#61#62#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zenit19kke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zenit19kkf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zenit19ske.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Zenit19skf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -269,10 +435,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Zenit19ske.java">
+    <entry file="file://$PROJECT_DIR$/src/Zenit19kkc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="192">
+          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zenit18ske_v2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zenit18ske_v3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zenit18ske.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zenit18skc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="153" selection-start-line="7" selection-start-column="153" selection-end-line="7" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zenit18skf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
