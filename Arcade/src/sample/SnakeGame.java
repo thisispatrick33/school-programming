@@ -11,6 +11,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -51,7 +52,7 @@ public class SnakeGame {
 
     }
 
-    public void playSnake(ActionEvent event) {
+    public void playSnake() {
         try {
             newFood();
 
@@ -111,6 +112,7 @@ public class SnakeGame {
             snake.add(new Corner(width / 2, height / 2));
             snake.add(new Corner(width / 2, height / 2));
             snake.add(new Corner(width / 2, height / 2));
+            stage.initStyle(StageStyle.TRANSPARENT);
             stage.setScene(scene);
             stage.setTitle("SNAKE GAME");
             stage.show();

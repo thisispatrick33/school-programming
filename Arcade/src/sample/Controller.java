@@ -5,12 +5,15 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
+
 import java.io.IOException;
 
 
 
 public class Controller {
     static Stage stage = new Stage();
+
 
     public void returnToChooser() throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
@@ -25,17 +28,20 @@ public class Controller {
         newPong.playPong(event);
     }
 
-    public void playSnake(ActionEvent event) {
+    public void playSnake() {
         stage.close();
         SnakeGame newSnake = new SnakeGame();
-        newSnake.playSnake(event);
+        newSnake.playSnake();
     }
 
-    public void playTetris(ActionEvent event) {
-        System.out.println("tetris");
+    public void playTetris() {
+        stage.close();
+        TetrisGame newTetris = new TetrisGame();
+        newTetris.playTetris();
     }
 
-    public void playBrick(ActionEvent event) {
-        System.out.println("brick");
+    public void playBrick() {
+        Breakout.main();
     }
+
 }
