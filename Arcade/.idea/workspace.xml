@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sample/Choose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/PongGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/SnakeGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18-2-2020-OPG-Vlakna/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18-2-2020-OPG-Vlakna/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Banka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Banka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Ball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Breakout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Brick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Commons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Paddle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Sprite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/resources/ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/resources/brick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/resources/paddle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Ball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Commons.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Commons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Paddle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Paddle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/ball.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/ball.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/brick.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/brick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/paddle.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/paddle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/game/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/game/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/game/Commons.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/game/Commons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/ball.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/ball.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/brick.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/brick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/paddle.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/paddle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experimenty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experimenty/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experimenty/src/sample/help.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Experimenty/src/sample/help.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX_OPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FX_OPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_FX_3D/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/Java_OPG_FX.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/out/production/Java_OPG_FX/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurzy/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurzy/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurzy/src/sample/Mena.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurzy/src/sample/Mena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurzy/src/sample/meny" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurzy/src/sample/meny" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/media/video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PifPaf/PifPaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PifPaf/PifPaf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PifPaf/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PifPaf/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PifPaf/src/sample/scores" beforeDir="false" afterPath="$PROJECT_DIR$/../PifPaf/src/sample/scores" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pong/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pong/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant/src/sample/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant/src/sample/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamoStudium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SamoStudium/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sietova_Hra/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sietova_Hra/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Snake/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Snake/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Snake/src/sample/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Snake/src/sample/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tetris/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tetris/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tetris/src/sample/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tetris/src/sample/Form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tetris/src/sample/Tetris.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tetris/src/sample/Tetris.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/VieZmiznut.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/VieZmiznut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/Vir.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Vir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/Vyr.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Vyr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/Citanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/Citanie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/Hlavna.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/Hlavna.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/Konzument.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/Konzument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/PSVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/PSVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/Producent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/Producent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/VlaknoCitacie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/VlaknoCitacie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/VlaknoVypisovacie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/VlaknoVypisovacie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/tmp" afterDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+              <folding>
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Choose.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/SnakeGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/PongGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1608">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sample</find>
+      <find>run</find>
+      <find>GAM</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sample/module-info.java" />
+        <option value="$PROJECT_DIR$/src/sample/Pong/Pong.java" />
+        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Pong.java" />
+        <option value="$PROJECT_DIR$/src/sample/Choose.java" />
+        <option value="$PROJECT_DIR$/src/sample/TetrisController.java" />
+        <option value="$PROJECT_DIR$/src/sample/PongGame.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/SnakeGame.java" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Arcade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arcade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arcade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arcade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sample" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mamuss\IdeaProjects\school-programming\Arcade\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mamuss\IdeaProjects\school-programming\Arcade\src\sample" />
+      <recent name="C:\Users\Mamuss\IdeaProjects\school-programming\Arcade\src\sample\Pong" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Choose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Choose" />
+      <module name="Arcade" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="Arcade" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Pong" />
+      <module name="Arcade" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Pong" />
+      <item itemvalue="Application.Choose" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Choose" />
+        <item itemvalue="Application.Pong" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1587564510418" duration="11982000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13284000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20895523" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30880713" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32998884" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="87" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Pong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2911">
+          <caret line="131" column="7" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Form.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TetrisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/PongGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1608">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Choose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SnakeGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>javafx-swt</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Arcade</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
