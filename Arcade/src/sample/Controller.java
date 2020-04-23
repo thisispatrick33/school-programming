@@ -40,8 +40,10 @@ public class Controller {
         newTetris.playTetris();
     }
 
-    public void playBrick() {
-        Breakout.main();
-    }
 
+    public void playSpace() {
+        stage.close();
+        SpaceGame newSpace = new SpaceGame();
+        newSpace.playSpace();
+    }
 }

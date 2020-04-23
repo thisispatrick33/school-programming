@@ -8,6 +8,6 @@
       <Button layoutX="274.0" layoutY="45.0" mnemonicParsing="false" onAction="#playSnake" text="Snake" />
       <Button layoutX="274.0" layoutY="94.0" mnemonicParsing="false" onAction="#playPong" text="Pong" />
       <Button layoutX="274.0" layoutY="151.0" mnemonicParsing="false" onAction="#playTetris" text="Tetris" />
-      <Button layoutX="274.0" layoutY="200.0" mnemonicParsing="false" onAction="#playBrick" text="Brick Breaker" />
+      <Button layoutX="274.0" layoutY="200.0" mnemonicParsing="false" onAction="#playSpace" text="Space Invaders" />
    </children>
 </AnchorPane>
