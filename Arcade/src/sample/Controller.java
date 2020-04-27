@@ -18,6 +18,7 @@ public class Controller {
     public void returnToChooser() throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         stage.setTitle("Hello World");
+        stage.setResizable(false);
         stage.setScene(new Scene(root));
         stage.show();
     }

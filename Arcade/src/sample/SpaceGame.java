@@ -29,26 +29,12 @@ public class SpaceGame{
     private static final int WIDTH = 800;
     private static final int HEIGHT = 600;
     private static final int PLAYER_SIZE = 60;
-    static boolean end = false;
-    static Image PLAYER_IMG;
 
-    static {
-        try {
-            PLAYER_IMG = new Image(new FileInputStream("C:\\Users\\Mamuss\\IdeaProjects\\school-programming\\Arcade\\src\\sample\\images\\player.png"));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
 
-    static Image EXPLOSION_IMG;
+    static Image PLAYER_IMG = new Image("file:src/Image/rocket.png");
 
-    static {
-        try {
-            EXPLOSION_IMG = new Image(new FileInputStream("C:\\Users\\Mamuss\\IdeaProjects\\school-programming\\Arcade\\src\\sample\\images\\explosion.png"));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
+    static Image EXPLOSION_IMG = new Image("file:src/Image/explosion.png");
+
 
     static final int EXPLOSION_W = 128;
     static final int EXPLOSION_ROWS = 3;
@@ -56,26 +42,12 @@ public class SpaceGame{
     static final int EXPLOSION_H = 128;
     static final int EXPLOSION_STEPS = 15;
 
-    static Image BOMBS_IMG[];
+    static Image BOMBS_IMG[] = new Image[]{
+            new Image("file:src/Image/asteroid1.png"),
+            new Image("file:src/Image/asteroid2.png"),
+            new Image("file:src/Image/asteroid3.png"),
+    };
 
-    static {
-        try {
-            BOMBS_IMG = new Image[]{
-                        new Image(new FileInputStream("C:\\Users\\Mamuss\\IdeaProjects\\school-programming\\Arcade\\src\\sample\\images\\1.png")),
-                        new Image(new FileInputStream("C:\\Users\\Mamuss\\IdeaProjects\\school-programming\\Arcade\\src\\sample\\images\\2.png")),
-                        new Image(new FileInputStream("C:\\Users\\Mamuss\\IdeaProjects\\school-programming\\Arcade\\src\\sample\\images\\3.png")),
-                        new Image(new FileInputStream("C:\\Users\\Mamuss\\IdeaProjects\\school-programming\\Arcade\\src\\sample\\images\\4.png")),
-                        new Image(new FileInputStream("C:\\Users\\Mamuss\\IdeaProjects\\school-programming\\Arcade\\src\\sample\\images\\5.png")),
-                        new Image(new FileInputStream("C:\\Users\\Mamuss\\IdeaProjects\\school-programming\\Arcade\\src\\sample\\images\\6.png")),
-                        new Image(new FileInputStream("C:\\Users\\Mamuss\\IdeaProjects\\school-programming\\Arcade\\src\\sample\\images\\7.png")),
-                        new Image(new FileInputStream("C:\\Users\\Mamuss\\IdeaProjects\\school-programming\\Arcade\\src\\sample\\images\\8.png")),
-                        new Image(new FileInputStream("C:\\Users\\Mamuss\\IdeaProjects\\school-programming\\Arcade\\src\\sample\\images\\9.png")),
-                        new Image(new FileInputStream("C:\\Users\\Mamuss\\IdeaProjects\\school-programming\\Arcade\\src\\sample\\images\\10.png")),
-                };
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
 
     final int MAX_BOMBS = 10,  MAX_SHOTS = MAX_BOMBS * 2;
     boolean gameOver = false;

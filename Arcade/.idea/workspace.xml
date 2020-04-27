@@ -2,48 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/SpaceGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/explosion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/images/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Image/TetrisMachine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Image/asteroid1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Image/asteroid2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Image/asteroid3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../18-2-2020-OPG-Vlakna/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18-2-2020-OPG-Vlakna/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/Ball.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/Board$GameCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/Board$TAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/Breakout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/Brick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/Commons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/Paddle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/Sprite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/resources/ball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/resources/brick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/resources/paddle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/SpaceGame$Bomb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/sample/SpaceGame$Bomb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/SpaceGame$Rocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/sample/SpaceGame$Rocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/SpaceGame$Shot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/sample/SpaceGame$Shot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/SpaceGame$Universe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/sample/SpaceGame$Universe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/SpaceGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/sample/SpaceGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/images/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/images/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/images/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/images/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/images/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/images/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/images/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/images/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/images/explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/images/player.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Ball.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Breakout.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Brick.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Commons.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Paddle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Sprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/ball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/brick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/paddle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/SpaceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/SpaceGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/explosion.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Image/explosion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/images/player.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Banka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Banka/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BreakOut/src/module-info.java" beforeDir="false" />
@@ -203,8 +200,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="120">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -215,50 +224,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/SpaceGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4478#4479#0" expanded="true" />
-                <element signature="e#4568#4569#0" expanded="true" />
-                <element signature="e#5662#5663#0" expanded="true" />
-                <element signature="e#5716#5717#0" expanded="true" />
-                <element signature="e#6186#6187#0" expanded="true" />
-                <element signature="e#6221#6222#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/SnakeGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="114" column="52" lean-forward="true" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/TetrisGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="67" selection-end-column="9" />
+            <state relative-caret-position="93">
+              <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -268,12 +235,12 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="104" lean-forward="true" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
             </state>
           </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -282,6 +249,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -300,6 +268,7 @@
       <find>Click</find>
       <find>setup</find>
       <find>con.</find>
+      <find>PLayer_img</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -328,8 +297,9 @@
         <option value="$PROJECT_DIR$/src/sample/Board.java" />
         <option value="$PROJECT_DIR$/src/sample/SnakeGame.java" />
         <option value="$PROJECT_DIR$/src/sample/TetrisGame.java" />
-        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/SpaceGame.java" />
+        <option value="$PROJECT_DIR$/src/sample/background.css" />
+        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
       </list>
     </option>
@@ -389,20 +359,23 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sample/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mamuss\IdeaProjects\school-programming\Arcade\src\Image" />
+      <recent name="C:\Users\Mamuss\IdeaProjects\school-programming\Arcade\src\sample\images" />
+      <recent name="C:\Users\Mamuss\IdeaProjects\school-programming\Arcade\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mamuss\IdeaProjects\school-programming\Arcade\src\sample\images" />
       <recent name="C:\Users\Mamuss\IdeaProjects\school-programming\Arcade\src\sample\resources" />
       <recent name="C:\Users\Mamuss\IdeaProjects\school-programming\Arcade\src\sample" />
       <recent name="C:\Users\Mamuss\IdeaProjects\school-programming\Arcade\src\sample\Pong" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Mamuss\IdeaProjects\school-programming\Arcade\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -442,7 +415,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="Image.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,7 +429,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="Image.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -470,7 +443,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="Image.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -486,7 +459,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="Image.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -557,18 +530,22 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1587564510418" duration="17086000" />
-      <workItem from="1587624218846" duration="3420000" />
+      <workItem from="1587624218846" duration="4392000" />
+      <workItem from="1587642329306" duration="435000" />
+      <workItem from="1587643610396" duration="289000" />
+      <workItem from="1587663250840" duration="309000" />
+      <workItem from="1587734503670" duration="300000" />
+      <workItem from="1587973815769" duration="10094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21808000" />
+    <option name="totallyTimeSpent" value="34207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21108742" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2217484" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -578,7 +555,7 @@
       <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36789298" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13377926" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -699,74 +676,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Sprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Commons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Ball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="26" column="125" selection-start-line="26" selection-start-column="125" selection-end-line="26" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Brick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/resources/paddle.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Paddle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Sprite.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Commons.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Ball.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Brick.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/resources/paddle.png" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Paddle.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/BrickGame.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Breakout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="104" lean-forward="true" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Breakout.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Board.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/package-info.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/SnakeGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="114" column="52" lean-forward="true" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="52" />
+        <state relative-caret-position="2352">
+          <caret line="114" column="52" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -775,7 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/TetrisGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="1056">
           <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="67" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -783,26 +706,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/background.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Image/backTile.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/SpaceGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="93">
+          <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4478#4479#0" expanded="true" />
-            <element signature="e#4568#4569#0" expanded="true" />
-            <element signature="e#5662#5663#0" expanded="true" />
-            <element signature="e#5716#5717#0" expanded="true" />
-            <element signature="e#6186#6187#0" expanded="true" />
-            <element signature="e#6221#6222#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        <state relative-caret-position="355">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -811,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="120">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

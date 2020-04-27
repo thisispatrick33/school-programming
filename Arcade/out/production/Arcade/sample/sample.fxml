@@ -1,13 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
-   <children>
-      <Button layoutX="274.0" layoutY="45.0" mnemonicParsing="false" onAction="#playSnake" text="Snake" />
-      <Button layoutX="274.0" layoutY="94.0" mnemonicParsing="false" onAction="#playPong" text="Pong" />
-      <Button layoutX="274.0" layoutY="151.0" mnemonicParsing="false" onAction="#playTetris" text="Tetris" />
-      <Button layoutX="274.0" layoutY="200.0" mnemonicParsing="false" onAction="#playSpace" text="Space Invaders" />
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="609.0" prefWidth="863.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <ImageView fitHeight="716.0" fitWidth="1087.0" layoutX="-71.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Image/backTile.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="98.0" fitWidth="435.0" layoutX="315.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Image/logo.png" />
+            </image>
+        </ImageView>
+      <HBox layoutX="96.0" layoutY="160.0" prefHeight="350.0" prefWidth="683.0" AnchorPane.leftAnchor="96.0" AnchorPane.rightAnchor="84.0" AnchorPane.topAnchor="160.0">
+         <children>
+            <ImageView fitHeight="350.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/TetrisMachine.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="350.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/SpaceMachine.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="350.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/SnakeMachine.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="350.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/PongMachine.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox layoutX="96.0" layoutY="542.0" prefHeight="39.0" prefWidth="666.0" AnchorPane.bottomAnchor="28.0" AnchorPane.leftAnchor="96.0" AnchorPane.rightAnchor="101.0">
+         <children>
+            <AnchorPane prefHeight="39.0" prefWidth="683.0">
+               <children>
+                  <Button layoutX="67.0" mnemonicParsing="false" onAction="#playTetris" text="Tetris" />
+                  <Button layoutX="212.0" mnemonicParsing="false" onAction="#playSpace" text="Space Invaders" />
+                  <Button layoutX="410.0" mnemonicParsing="false" onAction="#playSnake" text="Snake" />
+                  <Button layoutX="592.0" mnemonicParsing="false" onAction="#playPong" text="Pong" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
    </children>
 </AnchorPane>
