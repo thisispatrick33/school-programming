@@ -4,8 +4,9 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
@@ -14,13 +15,17 @@ import java.io.IOException;
 public class Controller {
     static Stage stage = new Stage();
 
-
     public void returnToChooser() throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("menu.fxml"));
         stage.setTitle("Arcade Classics");
         stage.setResizable(false);
         stage.setScene(new Scene(root));
         stage.show();
+    }
+
+    public void goToScore(int value) throws IOException {
+        ScoreController x = new ScoreController();
+        x.setScore(value);
     }
 
     public void playPong(ActionEvent event) throws IOException {

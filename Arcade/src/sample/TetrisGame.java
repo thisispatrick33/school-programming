@@ -94,7 +94,7 @@ public class TetrisGame {
                             resetVars();
                             fall.cancel();
                             try {
-                                con.returnToChooser();
+                                con.goToScore(4);
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }

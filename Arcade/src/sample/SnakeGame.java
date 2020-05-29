@@ -13,7 +13,7 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -36,6 +36,7 @@ public class SnakeGame {
     static Stage stage = new Stage();
     static Controller con = new Controller();
     static AnimationTimer animate;
+    static int score = 0;
 
     public enum Dir {
         left, right, up, down
@@ -124,13 +125,10 @@ public class SnakeGame {
 
     public static void tick(GraphicsContext gc) throws IOException {
         if (gameOver) {
-            gc.setFill(Color.RED);
-            gc.setFont(new Font("", 100));
-            gc.fillText("GAME OVER", 100, 400);
             stage.close();
             animate.stop();
             resetVars();
-            con.returnToChooser();
+            con.goToScore(score);
             return;
         }
 
@@ -171,6 +169,7 @@ public class SnakeGame {
         if (foodX == snake.get(0).x && foodY == snake.get(0).y) {
             snake.add(new Corner(-1, -1));
             newFood();
+            score++;
         }
 
         // self destroy

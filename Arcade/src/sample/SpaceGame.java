@@ -115,7 +115,7 @@ public class SpaceGame{
             gc.fillText("Game Over \n Your Score is: " + score, WIDTH / 2, HEIGHT /2.5);
             stage.close();
             timeline.stop();
-            con.returnToChooser();
+            con.goToScore(8);
 
         }
         univ.forEach(Universe::draw);

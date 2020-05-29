@@ -76,7 +76,7 @@ public class PongGame {
     private void run(GraphicsContext gc) throws IOException {
         if(((System.currentTimeMillis() - startTime)/1000 >= 70) && (startTime !=0)){
             stage.close();
-            con.returnToChooser();
+            con.goToScore(3);
             animation.stop();
         }
         else {
