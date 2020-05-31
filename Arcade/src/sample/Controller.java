@@ -23,9 +23,9 @@ public class Controller {
         stage.show();
     }
 
-    public void goToScore(int value) throws IOException {
+    public void goToScore(String name, int [] value) throws IOException {
         ScoreController x = new ScoreController();
-        x.setScore(value);
+        x.setScore(name, value);
     }
 
     public void playPong(ActionEvent event) throws IOException {

@@ -128,7 +128,7 @@ public class SnakeGame {
             stage.close();
             animate.stop();
             resetVars();
-            con.goToScore(score);
+            con.goToScore("Snake", new int[]{ score });
             return;
         }
 

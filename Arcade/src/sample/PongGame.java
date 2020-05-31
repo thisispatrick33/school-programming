@@ -74,9 +74,9 @@ public class PongGame {
     }
 
     private void run(GraphicsContext gc) throws IOException {
-        if(((System.currentTimeMillis() - startTime)/1000 >= 70) && (startTime !=0)){
+        if(((System.currentTimeMillis() - startTime)/1000 >= 3) && (startTime !=0)){
             stage.close();
-            con.goToScore(3);
+            con.goToScore("Pong", new int[]{ scoreP1, scoreP2 });
             animation.stop();
         }
         else {
@@ -149,7 +149,7 @@ public class PongGame {
 
             //draw score
             if(startTime!=0){
-                long time = 70-((System.currentTimeMillis() - startTime)/1000);
+                long time = 3-((System.currentTimeMillis() - startTime)/1000);
                 gc.fillText(scoreP1 + "\t\t"+(time/60)+":"+((time-((int)(time/60)*60)) < 10 ? "0"+(time-((int)(time/60)*60)) : (time-((int)(time/60)*60)) )+"\t\t" + scoreP2, widthPong / 2, 100);
             }
             //draw player 1 & 2

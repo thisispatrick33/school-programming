@@ -40,6 +40,8 @@ public class TetrisGame {
     static Stage stage = new Stage();
     static Controller con = new Controller();
     Timer fall = new Timer();
+    int points = 0;
+    int lineNumber = 0;
 
     public void playTetris(){
         for (int[] a : MESH) {
@@ -94,7 +96,7 @@ public class TetrisGame {
                             resetVars();
                             fall.cancel();
                             try {
-                                con.goToScore(4);
+                                con.goToScore("Tetris", new int[]{ points, lineNumber });
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
@@ -103,7 +105,6 @@ public class TetrisGame {
                         if (top == 15) {
                             System.exit(0);
                         }
-
                         if (game) {
                             MoveDown(object);
                             scoretext.setText("Score: " + Integer.toString(score));
@@ -128,6 +129,7 @@ public class TetrisGame {
                     case DOWN:
                         MoveDown(form);
                         score++;
+                        points = score;
                         break;
                     case LEFT:
                         MoveLeft(form);
@@ -449,7 +451,9 @@ public class TetrisGame {
                         rects.add(node);
                 }
                 score += 50;
+                points = score;
                 linesNo++;
+                lineNumber = linesNo;
 
                 for (Node node : rects) {
                     Rectangle a = (Rectangle) node;
