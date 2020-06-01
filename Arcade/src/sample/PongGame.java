@@ -26,8 +26,8 @@ public class PongGame {
     private static final int PLAYER_HEIGHT = 100;
     private static final int PLAYER_WIDTH = 15;
     private static final double BALL_R = 15;
-    private int ballYSpeed = 1;
-    private int ballXSpeed = 1;
+    private double ballYSpeed = 0.5;
+    private double ballXSpeed = 0.5;
     private double playerOneYPos = heightPong / 2;
     private double playerTwoYPos = heightPong / 2;
     private double ballXPos = widthPong / 2;
@@ -41,6 +41,7 @@ public class PongGame {
     Stage stage = new Stage();
     Controller con = new Controller();
     Timeline animation;
+    double mouseYPosition = 0;
 
 
     public void playPong(ActionEvent event) throws IOException {
@@ -61,8 +62,8 @@ public class PongGame {
         //number of cycles in animation INDEFINITE = repeat indefinitely
         animation.setCycleCount(Timeline.INDEFINITE);
 
-        //mouse control (move and click)
-        canvas.setOnMouseMoved(e ->  playerOneYPos  = e.getY() == 0 ? playerOneYPos : (e.getY() > heightPong -PLAYER_HEIGHT ? playerOneYPos : e.getY()));
+      //mouse control (move and click)
+        canvas.setOnMouseMoved(e ->  playerOneYPos  = e.getY() < 50 ? playerOneYPos : (e.getY()-50 > heightPong -PLAYER_HEIGHT ? playerOneYPos : e.getY()-50));
         canvas.setOnMouseClicked(e ->  gameStarted = true);
         stage.initStyle(StageStyle.TRANSPARENT);
         stage.setScene(new Scene(new StackPane(canvas)));
@@ -74,7 +75,7 @@ public class PongGame {
     }
 
     private void run(GraphicsContext gc) throws IOException {
-        if(((System.currentTimeMillis() - startTime)/1000 >= 60) && (startTime !=0)){
+        if(((System.currentTimeMillis() - startTime)/1000 >= 120) && (startTime !=0)){
             stage.close();
             con.goToScore("Pong", new int[]{ scoreP1, scoreP2 });
             animation.stop();
@@ -96,12 +97,12 @@ public class PongGame {
                 //set ball movement
                 ballXPos+=ballXSpeed;
                 ballYPos+=ballYSpeed;
-
                 //simple computer opponent who is following the ball
                 if(ballXPos < widthPong - widthPong / 4) {
-                    playerTwoYPos = ballYPos - PLAYER_HEIGHT / 2;
+                    playerTwoYPos  = ballYPos == 0 ? playerTwoYPos : ((ballYPos > heightPong-50 || ballYPos-50 < 0) ? playerTwoYPos : ballYPos-50);
                 }  else {
-                    playerTwoYPos =  ballYPos > playerTwoYPos + PLAYER_HEIGHT / 2 ? playerTwoYPos += 2: playerTwoYPos - 2;
+                    if(ballYPos > 50 && ballYPos < heightPong-50)
+                        playerTwoYPos =  ballYPos > playerTwoYPos + PLAYER_HEIGHT / 2 ? playerTwoYPos += 2 : playerTwoYPos - 2;
                 }
                 //draw the ball
                 gc.fillOval(ballXPos, ballYPos, BALL_R, BALL_R);
@@ -149,7 +150,7 @@ public class PongGame {
 
             //draw score
             if(startTime!=0){
-                long time = 60-((System.currentTimeMillis() - startTime)/1000);
+                long time = 120-((System.currentTimeMillis() - startTime)/1000);
                 gc.fillText(scoreP1 + "\t\t"+(time/60)+":"+((time-((int)(time/60)*60)) < 10 ? "0"+(time-((int)(time/60)*60)) : (time-((int)(time/60)*60)) )+"\t\t" + scoreP2, widthPong / 2, 100);
             }
             //draw player 1 & 2

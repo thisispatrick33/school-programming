@@ -53,7 +53,7 @@ public class Controller {
         newSpace.playSpace();
     }
 
-    public void showBoard() throws IOException {
+    public void showBoard() throws Exception {
         ScoreBoardController scoreCon = new ScoreBoardController();
         scoreCon.showBoard();
     }

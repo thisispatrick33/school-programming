@@ -23,6 +23,32 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ScoreController {
+    public static String encrypt(String strToEncrypt)
+    {
+        String halfSplit = strToEncrypt.substring(strToEncrypt.length()/2)+strToEncrypt.substring(0, strToEncrypt.length()/2);
+        String shift = "";
+        for(int i = 0; i < halfSplit.length(); i++){
+            shift = (char)((int)(halfSplit.charAt(i))+5) + shift;
+        }
+        return shift;
+    }
+
+    public static String decrypt(String strToDecrypt)
+    {
+        String shift = "";
+        for(int i = 0; i < strToDecrypt.length(); i++){
+            shift = (char)((int)(strToDecrypt.charAt(i))-5) + shift;
+        }
+        String halfSplit;
+        if(strToDecrypt.length() %2 == 0){
+            halfSplit = shift.substring(shift.length()/2)+shift.substring(0, shift.length()/2);
+        }
+        else {
+            halfSplit = shift.substring(shift.length()/2+1)+shift.substring(0, shift.length()/2+1);
+        }
+
+        return halfSplit;
+    }
 
     TextField nameInput;
 
@@ -176,7 +202,7 @@ public class ScoreController {
             BufferedReader in = new BufferedReader(new FileReader("src/sample/Scores"));
             List <String> scores = new ArrayList<>();
             while (true){
-                String line = in.readLine();
+                String line = decrypt(in.readLine());
                 scores.add(line);
                 if(line.compareTo("Space") == 0){
                     break;
@@ -189,25 +215,25 @@ public class ScoreController {
             for (String s : scores) {
                 if(game.compareTo("Snake") == 0){
                     if(!foungGame && s.compareTo("Snake") == 0 && !savedScore){
-                        out.write(player+" "+score[0]);
+                        out.write(encrypt(player+" "+score[0]));
                         out.newLine();
-                        out.write(s);
+                        out.write(encrypt(s));
                         savedScore = true;
                     }
                     else if (!foungGame && s.contains(" ")){
                         String [] data = s.split(" ");
                         if(!savedScore && Integer.parseInt(data[1]) < score[0]){
-                            out.write(player+" "+score[0]);
+                            out.write(encrypt(player+" "+score[0]));
                             out.newLine();
-                            out.write(s);
+                            out.write(encrypt(s));
                             savedScore = true;
                         }
                         else {
-                            out.write(s);
+                            out.write(encrypt(s));
                         }
                     }
                     else{
-                        out.write(s);
+                        out.write(encrypt(s));
                         if(s.compareTo("Snake") == 0){
                             foungGame = true;
                         }
@@ -220,37 +246,37 @@ public class ScoreController {
 
                     if((s.compareTo("Pong") == 0 && !savedScore && latestGame.compareTo("PongOP") == 0) || (s.compareTo("PongOP") == 0 && !savedScore && latestGame.compareTo("Snake") == 0)){
                         if(latestGame.compareTo("PongOP") == 0) {
-                            out.write(player + " " + score[0]);
+                            out.write(encrypt(player+" "+score[0]));
                         }
                         if(latestGame.compareTo("Snake") == 0){
-                            out.write(player + " " + ((score[0]*2) - ((score[1]/2)+1)));
+                            out.write(encrypt(player + " " + ((score[0]*2) - ((score[1]/2)+1))));
                         }
                         out.newLine();
-                        out.write(s);
+                        out.write(encrypt(s));
                         latestGame = s;
                     }
                     else if ((s.contains(" ") && latestGame.compareTo("PongOP") == 0) || (s.contains(" ") && latestGame.compareTo("Snake") == 0)){
                         String [] data = s.split(" ");
                         if(latestGame.compareTo("PongOP") == 0){
                             if(!savedScore && Integer.parseInt(data[1]) < score[0]){
-                                out.write(player+" "+score[0]);
+                                out.write(encrypt(player+" "+score[0]));
                                 out.newLine();
                                 savedScore = true;
                             }
                         }
                         if(latestGame.compareTo("Snake") == 0){
                             if(!savedScore && Integer.parseInt(data[1]) < ((score[0]*2) - ((score[1]/2)+1))){
-                                out.write(player + " " + ((score[0]*2) - ((score[1]/2)+1)));
+                                out.write(encrypt(player + " " + ((score[0]*2) - ((score[1]/2)+1))));
                                 out.newLine();
                                 savedScore = true;
                             }
                         }
-                        out.write(s);
+                        out.write(encrypt(s));
                     }
                     else{
                         latestGame = s;
                         savedScore = false;
-                        out.write(s);
+                        out.write(encrypt(s));
                     }
                     if(s.compareTo("Space") != 0){
                         out.newLine();
@@ -258,25 +284,25 @@ public class ScoreController {
                 }
                 if(game.compareTo("Space") == 0){
                     if(!foungGame && s.compareTo("Space") == 0 && !savedScore){
-                        out.write(player+" "+score[0]);
+                        out.write(encrypt(player+" "+score[0]));
                         out.newLine();
-                        out.write(s);
+                        out.write(encrypt(s));
                         savedScore = true;
                     }
                     else if (!foungGame && s.contains(" ") && latestGame.compareTo("Tetris") == 0){
                         String [] data = s.split(" ");
                         if(!savedScore && Integer.parseInt(data[1]) < score[0]){
-                            out.write(player+" "+score[0]);
+                            out.write(encrypt(player+" "+score[0]));
                             out.newLine();
-                            out.write(s);
+                            out.write(encrypt(s));
                             savedScore = true;
                         }
                         else {
-                            out.write(s);
+                            out.write(encrypt(s));
                         }
                     }
                     else{
-                        out.write(s);
+                        out.write(encrypt(s));
                         latestGame = s;
                         if(s.compareTo("Space") == 0){
                             foungGame = true;
@@ -290,37 +316,37 @@ public class ScoreController {
 
                     if((s.compareTo("Tetris") == 0 && !savedScore && latestGame.compareTo("TetrisL") == 0) || (s.compareTo("TetrisL") == 0 && !savedScore && latestGame.compareTo("Pong") == 0)){
                         if(latestGame.compareTo("TetrisL") == 0) {
-                            out.write(player + " " + score[0]);
+                            out.write(encrypt(player+" "+score[0]));
                         }
                         if(latestGame.compareTo("Pong") == 0){
-                            out.write(player + " " + score[1]);
+                            out.write(encrypt(player+" "+score[1]));
                         }
                         out.newLine();
-                        out.write(s);
+                        out.write(encrypt(s));
                         latestGame = s;
                     }
                     else if ((s.contains(" ") && latestGame.compareTo("TetrisL") == 0) || (s.contains(" ") && latestGame.compareTo("Pong") == 0)){
                         String [] data = s.split(" ");
                         if(latestGame.compareTo("TetrisL") == 0){
                             if(!savedScore && Integer.parseInt(data[1]) < score[0]){
-                                out.write(player+" "+score[0]);
+                                out.write(encrypt(player+" "+score[0]));
                                 out.newLine();
                                 savedScore = true;
                             }
                         }
                         if(latestGame.compareTo("Pong") == 0){
                             if(!savedScore && Integer.parseInt(data[1]) < score[1]){
-                                out.write(player+" "+score[1]);
+                                out.write(encrypt(player+" "+score[1]));
                                 out.newLine();
                                 savedScore = true;
                             }
                         }
-                        out.write(s);
+                        out.write(encrypt(s));
                     }
                     else{
                         latestGame = s;
                         savedScore = false;
-                        out.write(s);
+                        out.write(encrypt(s));
                     }
                     if(s.compareTo("Space") != 0){
                         out.newLine();

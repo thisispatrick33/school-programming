@@ -19,20 +19,39 @@ import java.util.List;
 
 
 public class ScoreBoardController {
+
+    public static String decrypt(String strToDecrypt)
+    {
+        String shift = "";
+        for(int i = 0; i < strToDecrypt.length(); i++){
+            shift = (char)((int)(strToDecrypt.charAt(i))-5) + shift;
+        }
+        String halfSplit;
+        if(strToDecrypt.length() %2 == 0){
+            halfSplit = shift.substring(shift.length()/2)+shift.substring(0, shift.length()/2);
+        }
+        else {
+            halfSplit = shift.substring(shift.length()/2+1)+shift.substring(0, shift.length()/2+1);
+        }
+
+        return halfSplit;
+    }
+
     static Stage stage = new Stage();
     Label section;
     ScrollPane sp;
     List<String> scores;
 
     int slide = 0;
-    String [] sections = new String[]{"SNAKE", "PONG with Opponent", "PONG", "TETRIS SCORE", "TETRIS LINES", "SPACE"};
+    String [] sections = new String[]{"SNAKE", "PONG with Opponent", "PONG", "TETRIS LINES", "TETRIS SCORE", "SPACE"};
 
     public void showBoard () throws IOException {
         BufferedReader in = new BufferedReader(new FileReader("src/sample/Scores"));
         scores = new ArrayList<>();
 
         while (true){
-            String line = in.readLine();
+            String line = decrypt(in.readLine());
+            System.out.println(line);
             scores.add(line);
             if(line.compareTo("Space") == 0){
                 break;
@@ -102,10 +121,10 @@ public class ScoreBoardController {
                 section.setLayoutX(335);
                 break;
             case 3:
-                section.setLayoutX(245);
+                section.setLayoutX(250);
                 break;
             case 4:
-                section.setLayoutX(250);
+                section.setLayoutX(245);
                 break;
             case 5:
                 section.setLayoutX(330);

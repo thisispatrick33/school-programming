@@ -5,11 +5,16 @@
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../18-2-2020-OPG-Vlakna/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18-2-2020-OPG-Vlakna/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/PongGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/sample/PongGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/ScoreBoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/sample/ScoreBoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/ScoreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/sample/ScoreController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Arcade/sample/Scores" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arcade/sample/Scores" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/PongGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/PongGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/ScoreBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ScoreBoardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/ScoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ScoreController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Scores" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Scores" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Banka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Banka/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BreakOut/src/module-info.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Ball.java" beforeDir="false" />
@@ -167,66 +172,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ScoreController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1811">
-              <caret line="236" column="46" lean-forward="true" selection-start-line="236" selection-start-column="46" selection-end-line="236" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ScoreBoardController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="125" column="55" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/menu.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="9" column="248" selection-start-line="9" selection-start-column="215" selection-end-line="9" selection-end-column="248" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/style.css">
+        <entry file="file://$PROJECT_DIR$/src/sample/PongGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Scores">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+            <state relative-caret-position="332">
+              <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -237,8 +190,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -261,6 +214,14 @@
       <find>score</find>
       <find>70</find>
       <find>sa</find>
+      <find>in.</find>
+      <find>en</find>
+      <find>SPSEPO</find>
+      <find>SPSE</find>
+      <find>in.re</find>
+      <find>out.write</find>
+      <find>out.</find>
+      <find>playerTwo</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -291,14 +252,15 @@
         <option value="$PROJECT_DIR$/src/sample/SpaceGame.java" />
         <option value="$PROJECT_DIR$/src/sample/TetrisGame.java" />
         <option value="$PROJECT_DIR$/src/sample/over.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/PongGame.java" />
         <option value="$PROJECT_DIR$/src/sample/SnakeGame.java" />
         <option value="$PROJECT_DIR$/src/sample/menu.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/style.css" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/sample/Scores" />
+        <option value="$PROJECT_DIR$/src/sample/Temp.java" />
         <option value="$PROJECT_DIR$/src/sample/ScoreController.java" />
         <option value="$PROJECT_DIR$/src/sample/ScoreBoardController.java" />
-        <option value="$PROJECT_DIR$/src/sample/style.css" />
+        <option value="$PROJECT_DIR$/src/sample/Scores" />
+        <option value="$PROJECT_DIR$/src/sample/PongGame.java" />
       </list>
     </option>
   </component>
@@ -319,7 +281,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,6 +303,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -465,6 +427,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Temp" />
+      <module name="Arcade" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -507,9 +483,11 @@
       <item itemvalue="Application.Pong" />
       <item itemvalue="Application.Choose" />
       <item itemvalue="Application.Breakout" />
+      <item itemvalue="Application.Temp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Temp" />
         <item itemvalue="Application.Breakout" />
         <item itemvalue="Application.Choose" />
         <item itemvalue="Application.Pong" />
@@ -547,18 +525,19 @@
       <workItem from="1590736807598" duration="1005000" />
       <workItem from="1590769120126" duration="5467000" />
       <workItem from="1590930922316" duration="10819000" />
-      <workItem from="1590993883667" duration="14593000" />
+      <workItem from="1590993883667" duration="16847000" />
+      <workItem from="1591025069586" duration="7595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72618000" />
+    <option name="totallyTimeSpent" value="82467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14658849" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14818764" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -568,7 +547,7 @@
       <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24860647" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26755852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -685,16 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/PongGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/TetrisGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -705,43 +674,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/over.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/over.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Test" />
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="912">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/menu.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="9" column="248" selection-start-line="9" selection-start-column="215" selection-end-line="9" selection-end-column="248" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Scores">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ScoreController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1811">
-          <caret line="236" column="46" lean-forward="true" selection-start-line="236" selection-start-column="46" selection-end-line="236" selection-end-column="46" />
+        <state relative-caret-position="-7333">
+          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -750,18 +698,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ScoreBoardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="125" column="55" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
+        <state relative-caret-position="196">
+          <caret line="123" column="40" selection-start-line="123" selection-start-column="40" selection-end-line="123" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Temp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/menu.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="248" selection-start-line="9" selection-start-column="215" selection-end-line="9" selection-end-column="248" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+        <state relative-caret-position="312">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Scores">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/PongGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
