@@ -9,10 +9,13 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ContentDisplay;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
+import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
 
 import java.io.*;
@@ -37,14 +40,25 @@ public class ScoreController {
 
     public void gameOver(){
         Pane pane = new Pane();
+        ImageView image = new ImageView("file:src/Image/backTile.png");
+        pane.getChildren().addAll(image);
         nameInput = new TextField();
-        nameInput.setLayoutX(200);
-        nameInput.setLayoutY(300);
+        nameInput.setPrefWidth(200);
+        nameInput.setLayoutX(100);
+        nameInput.setLayoutY(250);
         pane.getChildren().addAll(nameInput);
+        Label over = new Label("GAME OVER");
+        over.setFont(Font.font ("Regular", FontWeight.BOLD,50));
+        over.setTextFill(Color.web("#d60626"));
+        over.setLayoutX(60);
+        over.setLayoutY(20);
+        pane.getChildren().addAll(over);
         Button btn = new Button();
+        btn.setPrefWidth(120);
+        btn.setPrefHeight(30);
         btn.setText("SUBMIT");
-        btn.setLayoutX(200);
-        btn.setLayoutY(350);
+        btn.setLayoutX(140);
+        btn.setLayoutY(300);
         btn.setOnMouseClicked((e) -> {
             try {
                 returnToMenu();
@@ -57,6 +71,7 @@ public class ScoreController {
             Label Snake = new Label("SNAKE");
             Snake.setTextFill(Color.WHITE);
             Snake.setFont(Font.font ("Regular", FontWeight.BOLD,20));
+            Snake.setPrefWidth(120);
             Snake.setLayoutX(170);
             Snake.setLayoutY(150);
             pane.getChildren().addAll(Snake);
@@ -66,7 +81,7 @@ public class ScoreController {
             SnakeScore.setTextFill(Color.WHITE);
             SnakeScore.setFont(Font.font ("Regular", FontWeight.BOLD,20));
             if(score[0] < 10)
-                SnakeScore.setLayoutX(200);
+                SnakeScore.setLayoutX(198);
             else if(score[0] < 100)
                 SnakeScore.setLayoutX(190);
             else
@@ -111,7 +126,7 @@ public class ScoreController {
                 TetrisScore.setLayoutX(155);
             else
                 TetrisScore.setLayoutX(147);
-            TetrisScore.setLayoutY(160);
+            TetrisScore.setLayoutY(170);
             pane.getChildren().addAll(TetrisScore);
             Label TetrisLines = new Label("Lines: "+score[1]);
             TetrisLines.setAlignment(Pos.CENTER);
@@ -124,7 +139,7 @@ public class ScoreController {
                 TetrisLines.setLayoutX(165);
             else
                 TetrisLines.setLayoutX(159);
-            TetrisLines.setLayoutY(180);
+            TetrisLines.setLayoutY(190);
             pane.getChildren().addAll(TetrisLines);
         }
         if(game.compareTo("Space") == 0){
@@ -157,7 +172,6 @@ public class ScoreController {
 
     public void returnToMenu() throws IOException {
         String player = nameInput.getText();
-        System.out.println(game);
         if(player.length() > 0 && !player.contains(" ")){
             BufferedReader in = new BufferedReader(new FileReader("src/sample/Scores"));
             List <String> scores = new ArrayList<>();
@@ -169,6 +183,7 @@ public class ScoreController {
                 }
             }
             boolean foungGame = false;
+            String latestGame = "";
             boolean savedScore = false;
             BufferedWriter out = new BufferedWriter(new FileWriter("src/sample/Scores"));
             for (String s : scores) {
@@ -177,7 +192,6 @@ public class ScoreController {
                         out.write(player+" "+score[0]);
                         out.newLine();
                         out.write(s);
-                        System.out.println(player+" "+score[0]);
                         savedScore = true;
                     }
                     else if (!foungGame && s.contains(" ")){
@@ -186,22 +200,127 @@ public class ScoreController {
                             out.write(player+" "+score[0]);
                             out.newLine();
                             out.write(s);
-                            System.out.println(player+" "+score[0]);
                             savedScore = true;
                         }
                         else {
                             out.write(s);
-                            System.out.println(s);
                         }
                     }
-                    else if(s.compareTo("Snake") == 0){
+                    else{
                         out.write(s);
-                        System.out.println(s);
-                        foungGame = true;
+                        if(s.compareTo("Snake") == 0){
+                            foungGame = true;
+                        }
                     }
-                    else {
+                    if(s.compareTo("Space") != 0){
+                        out.newLine();
+                    }
+                }
+                if(game.compareTo("Pong") == 0){
+
+                    if((s.compareTo("Pong") == 0 && !savedScore && latestGame.compareTo("PongOP") == 0) || (s.compareTo("PongOP") == 0 && !savedScore && latestGame.compareTo("Snake") == 0)){
+                        if(latestGame.compareTo("PongOP") == 0) {
+                            out.write(player + " " + score[0]);
+                        }
+                        if(latestGame.compareTo("Snake") == 0){
+                            out.write(player + " " + ((score[0]*2) / ((score[1]/2)+1)));
+                        }
+                        out.newLine();
                         out.write(s);
-                        System.out.println(s);
+                        latestGame = s;
+                    }
+                    else if ((s.contains(" ") && latestGame.compareTo("PongOP") == 0) || (s.contains(" ") && latestGame.compareTo("Snake") == 0)){
+                        String [] data = s.split(" ");
+                        if(latestGame.compareTo("PongOP") == 0){
+                            if(!savedScore && Integer.parseInt(data[1]) < score[0]){
+                                out.write(player+" "+score[0]);
+                                out.newLine();
+                                savedScore = true;
+                            }
+                        }
+                        if(latestGame.compareTo("Snake") == 0){
+                            if(!savedScore && Integer.parseInt(data[1]) < ((score[0]*2) / ((score[1]/2)+1))){
+                                out.write(player + " " + ((score[0]*2) / ((score[1]/2)+1)));
+                                out.newLine();
+                                savedScore = true;
+                            }
+                        }
+                        out.write(s);
+                    }
+                    else{
+                        latestGame = s;
+                        savedScore = false;
+                        out.write(s);
+                    }
+                    if(s.compareTo("Space") != 0){
+                        out.newLine();
+                    }
+                }
+                if(game.compareTo("Space") == 0){
+                    if(!foungGame && s.compareTo("Space") == 0 && !savedScore){
+                        out.write(player+" "+score[0]);
+                        out.newLine();
+                        out.write(s);
+                        savedScore = true;
+                    }
+                    else if (!foungGame && s.contains(" ") && latestGame.compareTo("Tetris") == 0){
+                        String [] data = s.split(" ");
+                        if(!savedScore && Integer.parseInt(data[1]) < score[0]){
+                            out.write(player+" "+score[0]);
+                            out.newLine();
+                            out.write(s);
+                            savedScore = true;
+                        }
+                        else {
+                            out.write(s);
+                        }
+                    }
+                    else{
+                        out.write(s);
+                        latestGame = s;
+                        if(s.compareTo("Space") == 0){
+                            foungGame = true;
+                        }
+                    }
+                    if(s.compareTo("Space") != 0){
+                        out.newLine();
+                    }
+                }
+                if(game.compareTo("Tetris") == 0){
+
+                    if((s.compareTo("Tetris") == 0 && !savedScore && latestGame.compareTo("TetrisL") == 0) || (s.compareTo("TetrisL") == 0 && !savedScore && latestGame.compareTo("Pong") == 0)){
+                        if(latestGame.compareTo("TetrisL") == 0) {
+                            out.write(player + " " + score[0]);
+                        }
+                        if(latestGame.compareTo("Pong") == 0){
+                            out.write(player + " " + score[1]);
+                        }
+                        out.newLine();
+                        out.write(s);
+                        latestGame = s;
+                    }
+                    else if ((s.contains(" ") && latestGame.compareTo("TetrisL") == 0) || (s.contains(" ") && latestGame.compareTo("Pong") == 0)){
+                        String [] data = s.split(" ");
+                        if(latestGame.compareTo("TetrisL") == 0){
+                            if(!savedScore && Integer.parseInt(data[1]) < score[0]){
+                                out.write(player+" "+score[0]);
+                                out.newLine();
+                                savedScore = true;
+                            }
+                        }
+                        if(latestGame.compareTo("Pong") == 0){
+                            if(!savedScore && Integer.parseInt(data[1]) < score[1]){
+                                out.write(player+" "+score[1]);
+                                out.newLine();
+                                savedScore = true;
+                            }
+                        }
+                        out.write(s);
+                    }
+                    else{
+                        latestGame = s;
+                        savedScore = false;
+                        out.write(s);
                     }
                     if(s.compareTo("Space") != 0){
                         out.newLine();
@@ -209,7 +328,6 @@ public class ScoreController {
                 }
             }
             out.close();
-            System.out.println("saved");
             Controller con = new Controller();
             stage.close();
             con.returnToChooser();

@@ -52,4 +52,9 @@ public class Controller {
         SpaceGame newSpace = new SpaceGame();
         newSpace.playSpace();
     }
+
+    public void showBoard() throws IOException {
+        ScoreBoardController scoreCon = new ScoreBoardController();
+        scoreCon.showBoard();
+    }
 }

@@ -7,19 +7,19 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="609.0" prefWidth="863.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="943.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <ImageView fitHeight="716.0" fitWidth="1087.0" layoutX="-71.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="684.0" fitWidth="1181.0" layoutX="-71.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../Image/backTile.png" />
             </image>
         </ImageView>
-        <ImageView fitHeight="98.0" fitWidth="435.0" layoutX="315.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="98.0" fitWidth="435.0" layoutX="347.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../Image/logo.png" />
             </image>
         </ImageView>
-      <HBox layoutX="96.0" layoutY="160.0" prefHeight="350.0" prefWidth="683.0" AnchorPane.leftAnchor="96.0" AnchorPane.rightAnchor="84.0" AnchorPane.topAnchor="160.0">
+      <HBox layoutX="123.0" layoutY="156.0" prefHeight="350.0" prefWidth="692.0" AnchorPane.leftAnchor="123.0" AnchorPane.rightAnchor="128.0" AnchorPane.topAnchor="156.0">
          <children>
             <ImageView fitHeight="350.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -43,29 +43,38 @@
             </ImageView>
          </children>
       </HBox>
-      <HBox layoutX="96.0" layoutY="542.0" prefHeight="39.0" prefWidth="666.0" AnchorPane.bottomAnchor="28.0" AnchorPane.leftAnchor="96.0" AnchorPane.rightAnchor="101.0">
+      <HBox layoutX="99.0" layoutY="535.0" prefHeight="39.0" prefWidth="666.0" AnchorPane.bottomAnchor="87.0" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="98.0">
          <children>
             <AnchorPane prefHeight="39.0" prefWidth="683.0">
                <children>
-                  <Button layoutX="37.0" layoutY="-5.0" mnemonicParsing="false" onAction="#playTetris" prefHeight="39.0" prefWidth="96.0" style="-fx-background-color: rgb(237, 158, 21); -fx-background-radius: 10px;" text="Tetris" textAlignment="CENTER" textFill="WHITE">
+                  <Button layoutX="61.0" layoutY="-5.0" mnemonicParsing="false" onAction="#playTetris" prefHeight="39.0" prefWidth="96.0" style="-fx-background-color: rgb(237, 158, 21); -fx-background-radius: 10px;" text="Tetris" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="18.0" />
-                     </font></Button>
-                   <Button layoutX="178.0" layoutY="-5.0" mnemonicParsing="false" onAction="#playSpace" prefHeight="39.0" prefWidth="162.0" style="-fx-background-color: rgb(216, 82, 222); -fx-background-radius: 10px;" text="Space Invaders" textAlignment="CENTER" textFill="WHITE">
+                     </font>
+                  </Button>
+                   <Button layoutX="201.0" layoutY="-5.0" mnemonicParsing="false" onAction="#playSpace" prefHeight="39.0" prefWidth="162.0" style="-fx-background-color: rgb(216, 82, 222); -fx-background-radius: 10px;" text="Space Invaders" textAlignment="CENTER" textFill="WHITE">
                        <font>
                            <Font name="System Bold" size="18.0" />
-                       </font></Button>
-                   <Button layoutX="390.0" layoutY="-5.0" mnemonicParsing="false" onAction="#playSnake" prefHeight="39.0" prefWidth="96.0" style="-fx-background-color: rgb(28, 212, 58); -fx-background-radius: 10px;" text="Snake" textAlignment="CENTER" textFill="WHITE">
+                       </font>
+                  </Button>
+                   <Button layoutX="412.0" layoutY="-5.0" mnemonicParsing="false" onAction="#playSnake" prefHeight="39.0" prefWidth="96.0" style="-fx-background-color: rgb(28, 212, 58); -fx-background-radius: 10px;" text="Snake" textAlignment="CENTER" textFill="WHITE">
                        <font>
                            <Font name="System Bold" size="18.0" />
-                       </font></Button>
-                   <Button layoutX="556.0" layoutY="-5.0" mnemonicParsing="false" onAction="#playPong" prefHeight="39.0" prefWidth="96.0" style="-fx-background-color: rgb(26, 112, 217); -fx-background-radius: 10px;" text="Pong" textAlignment="CENTER" textFill="WHITE">
+                       </font>
+                  </Button>
+                   <Button layoutX="573.0" layoutY="-5.0" mnemonicParsing="false" onAction="#playPong" prefHeight="39.0" prefWidth="112.0" style="-fx-background-color: rgb(26, 112, 217); -fx-background-radius: 10px;" text="Pong" textAlignment="CENTER" textFill="WHITE">
                        <font>
                            <Font name="System Bold" size="18.0" />
-                       </font></Button>
+                       </font>
+                  </Button>
                </children>
             </AnchorPane>
          </children>
       </HBox>
+      <Button layoutX="397.0" layoutY="594.0" mnemonicParsing="false" onAction="#showBoard" prefHeight="39.0" prefWidth="144.0" style="-fx-background-color: rgb(224, 16, 37); -fx-background-radius: 10px;" text="ScoreBoard" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

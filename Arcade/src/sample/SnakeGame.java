@@ -127,8 +127,8 @@ public class SnakeGame {
         if (gameOver) {
             stage.close();
             animate.stop();
-            resetVars();
             con.goToScore("Snake", new int[]{ score });
+            resetVars();
             return;
         }
 
@@ -255,5 +255,6 @@ public class SnakeGame {
         rand = new Random();
         stage = new Stage();
         con = new Controller();
+        score = 0;
     }
 }
