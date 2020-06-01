@@ -1,5 +1,6 @@
 package sample;
 
+import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
@@ -44,19 +45,22 @@ public class ScoreBoardController {
         Pane pane = new Pane();
         ImageView image = new ImageView("file:src/Image/backTile.png");
         Label arrowLeft = new Label("<");
-        arrowLeft.setFont(Font.font ("Regular", FontWeight.BOLD,50));
-        arrowLeft.setTextFill(Color.web("#000000"));
+        arrowLeft.setFont(Font.font ("Regular", FontWeight.BOLD,70));
+        arrowLeft.setTextFill(Color.web("#FFFFFF"));
         arrowLeft.setOnMouseClicked((e) -> changeSlide(-1));
-        arrowLeft.setLayoutX(10);
+        arrowLeft.setLayoutX(340);
+        arrowLeft.setLayoutY(80);
         section = new Label("SNAKE");
         section.setFont(Font.font ("Regular", FontWeight.BOLD,50));
-        section.setTextFill(Color.web("#000000"));
+        section.setTextFill(Color.web("#FFFFFF"));
+        section.setLayoutY(10);
         section.setLayoutX(100);
         Label arrowRight = new Label(">");
-        arrowRight.setFont(Font.font ("Regular", FontWeight.BOLD,50));
-        arrowRight.setTextFill(Color.web("#000000"));
+        arrowRight.setFont(Font.font ("Regular", FontWeight.BOLD,70));
+        arrowRight.setTextFill(Color.web("#FFFFFF"));
         arrowRight.setOnMouseClicked((e) -> changeSlide(1));
-        arrowRight.setLayoutX(300);
+        arrowRight.setLayoutY(80);
+        arrowRight.setLayoutX(420);
 
         pane.getChildren().addAll(image);
         pane.getChildren().addAll(arrowLeft);
@@ -64,10 +68,10 @@ public class ScoreBoardController {
         pane.getChildren().addAll(arrowRight);
         sp = new ScrollPane();
         sp.getStylesheets().add(this.getClass().getResource("style.css").toExternalForm());
-        sp.setStyle("-fx-background: transparent; -fx-background-color: transparent; ");
-        sp.setHbarPolicy(ScrollPane.ScrollBarPolicy.NEVER);
+        /*sp.setHbarPolicy(ScrollPane.ScrollBarPolicy.NEVER);*/
         sp.setLayoutY(200);
-        sp.setPrefSize(115, 150);
+        sp.setLayoutX(200);
+        sp.setPrefSize(400, 580);
         changeSlide(0);
         pane.getChildren().addAll(sp);
 
@@ -90,6 +94,25 @@ public class ScoreBoardController {
         else {
             slide = slide + way;
         }
+        switch(slide) {
+            case 1:
+                section.setLayoutX(160);
+                break;
+            case 2:
+                section.setLayoutX(335);
+                break;
+            case 3:
+                section.setLayoutX(245);
+                break;
+            case 4:
+                section.setLayoutX(250);
+                break;
+            case 5:
+                section.setLayoutX(330);
+                break;
+            default:
+                section.setLayoutX(325);
+        }
         section.setText(sections[slide]);
         String currentGame = "";
         Pane lines = new Pane();
@@ -100,8 +123,13 @@ public class ScoreBoardController {
             }
             else {
                 if((currentGame.compareTo("")==0 && slide==0) || (currentGame.compareTo("Snake")==0 && slide==1) || (currentGame.compareTo("PongOP")==0 && slide==2) || (currentGame.compareTo("Pong")==0 && slide==3) || (currentGame.compareTo("TetrisL")==0 && slide==4) || (currentGame.compareTo("Tetris")==0 && slide==5)){
-                    Label label = new Label(s);
-                    label.setLayoutY(i*10);
+                    Label label = new Label((i+1)+". "+s);
+                    label.setFont(Font.font ("Regular", FontWeight.BOLD,40));
+                    label.setStyle("-fx-border-color: white; -fx-border-width: 0 0 2px 0; ");
+                    label.setPadding(new Insets(5,0,0,20));
+                    label.setMinWidth(380);
+                    label.setTextFill(Color.web("#FFFFFF"));
+                    label.setLayoutY(i*60);
                     lines.getChildren().addAll(label);
                     i++;
                 }

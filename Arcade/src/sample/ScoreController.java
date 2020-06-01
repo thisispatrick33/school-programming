@@ -172,7 +172,7 @@ public class ScoreController {
 
     public void returnToMenu() throws IOException {
         String player = nameInput.getText();
-        if(player.length() > 0 && !player.contains(" ")){
+        if(player.length() > 0 && player.length() < 15 && !player.contains(" ")){
             BufferedReader in = new BufferedReader(new FileReader("src/sample/Scores"));
             List <String> scores = new ArrayList<>();
             while (true){
@@ -223,7 +223,7 @@ public class ScoreController {
                             out.write(player + " " + score[0]);
                         }
                         if(latestGame.compareTo("Snake") == 0){
-                            out.write(player + " " + ((score[0]*2) / ((score[1]/2)+1)));
+                            out.write(player + " " + ((score[0]*2) - ((score[1]/2)+1)));
                         }
                         out.newLine();
                         out.write(s);
@@ -239,8 +239,8 @@ public class ScoreController {
                             }
                         }
                         if(latestGame.compareTo("Snake") == 0){
-                            if(!savedScore && Integer.parseInt(data[1]) < ((score[0]*2) / ((score[1]/2)+1))){
-                                out.write(player + " " + ((score[0]*2) / ((score[1]/2)+1)));
+                            if(!savedScore && Integer.parseInt(data[1]) < ((score[0]*2) - ((score[1]/2)+1))){
+                                out.write(player + " " + ((score[0]*2) - ((score[1]/2)+1)));
                                 out.newLine();
                                 savedScore = true;
                             }
