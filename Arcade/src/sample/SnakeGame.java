@@ -1,7 +1,6 @@
 package sample;
 
 import javafx.animation.AnimationTimer;
-import javafx.event.ActionEvent;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
@@ -20,8 +19,7 @@ import java.util.Random;
 
 public class SnakeGame {
 
-    /* SNAKE VARIABLES */
-
+    /* GAME VARIABLES */
     static int speed = 5;
     static int foodcolor = 0;
     static int width = 30;
@@ -38,34 +36,39 @@ public class SnakeGame {
     static AnimationTimer animate;
     static int score = 0;
 
+    /* The directions */
     public enum Dir {
         left, right, up, down
     }
 
+    /* Corner class that makes up the body of the snake */
     public static class Corner {
         int x;
         int y;
-
         public Corner(int x, int y) {
             this.x = x;
             this.y = y;
         }
-
     }
 
+    /* Main Function which starts the game */
     public void playSnake() {
         try {
+            /* Starting food */
             newFood();
 
+            /* Set up the container*/
             VBox root = new VBox();
             Canvas c = new Canvas(width * cornersize, height * cornersize);
             GraphicsContext gc = c.getGraphicsContext2D();
             root.getChildren().add(c);
 
+            /* New Animation */
             animate = new AnimationTimer() {
-
+                /* Variable to determine the time since the last tick */
                 long lastTick = 0;
 
+                /* Call the tick function in the right time */
                 public void handle(long now) {
                     if (lastTick == 0) {
                         lastTick = now;
@@ -88,11 +91,12 @@ public class SnakeGame {
                 }
 
             };
-            animate.start();
 
+            /* Start the animation and show the scene */
+            animate.start();
             Scene scene = new Scene(root, width * cornersize, height * cornersize);
 
-            // control
+            /* Control the Snake */
             scene.addEventFilter(KeyEvent.KEY_PRESSED, key -> {
                 if (key.getCode() == KeyCode.UP) {
                     direction = Dir.up;
@@ -106,10 +110,9 @@ public class SnakeGame {
                 if (key.getCode() == KeyCode.RIGHT) {
                     direction = Dir.right;
                 }
-
             });
 
-            // add start snake parts
+            /* Initial snake parts and Stage */
             snake.add(new Corner(width / 2, height / 2));
             snake.add(new Corner(width / 2, height / 2));
             snake.add(new Corner(width / 2, height / 2));
@@ -117,13 +120,15 @@ public class SnakeGame {
             stage.setScene(scene);
             stage.setTitle("SNAKE GAME");
             stage.show();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
+    /* Tick function which handles the Game */
     public static void tick(GraphicsContext gc) throws IOException {
+        /* If the game ends, close the stage, reset the variables, go to the score prompt */
         if (gameOver) {
             stage.close();
             animate.stop();
@@ -132,11 +137,13 @@ public class SnakeGame {
             return;
         }
 
+        /* Move every snake body part by one */
         for (int i = snake.size() - 1; i >= 1; i--) {
             snake.get(i).x = snake.get(i - 1).x;
             snake.get(i).y = snake.get(i - 1).y;
         }
 
+        /* Changes the coordinates of the first snake body part based on the direction */
         switch (direction) {
             case up:
                 snake.get(0).y--;
@@ -162,36 +169,31 @@ public class SnakeGame {
                     gameOver = true;
                 }
                 break;
-
         }
 
-        // eat food
+        /* If the snake colides with food, add a Corner and generate a new one */
         if (foodX == snake.get(0).x && foodY == snake.get(0).y) {
             snake.add(new Corner(-1, -1));
             newFood();
             score++;
         }
 
-        // self destroy
+        /* If the snake tries to go back end the game */
         for (int i = 1; i < snake.size(); i++) {
             if (snake.get(0).x == snake.get(i).x && snake.get(0).y == snake.get(i).y) {
                 gameOver = true;
             }
         }
 
-        // fill
-        // background
+        /* Show the background and score */
         gc.setFill(Color.BLACK);
         gc.fillRect(0, 0, width * cornersize, height * cornersize);
-
-        // score
         gc.setFill(Color.WHITE);
         gc.setFont(new Font("", 30));
         gc.fillText("Score: " + (speed - 6), 10, 30);
 
-        // random foodcolor
+        /* Generate a random food Color */
         Color cc = Color.WHITE;
-
         switch (foodcolor) {
             case 0:
                 cc = Color.PURPLE;
@@ -209,38 +211,42 @@ public class SnakeGame {
                 cc = Color.ORANGE;
                 break;
         }
+        /* Show the food */
         gc.setFill(cc);
         gc.fillOval(foodX * cornersize, foodY * cornersize, cornersize, cornersize);
 
-        // snake
+        /* Show every part of the snake body */
         for (Corner c : snake) {
             gc.setFill(Color.LIGHTGREEN);
             gc.fillRect(c.x * cornersize, c.y * cornersize, cornersize - 1, cornersize - 1);
             gc.setFill(Color.GREEN);
             gc.fillRect(c.x * cornersize, c.y * cornersize, cornersize - 2, cornersize - 2);
-
         }
 
     }
 
-    // food
+    /* Generate a new food */
     public static void newFood() {
         start: while (true) {
+            /* X a Y coords */
             foodX = rand.nextInt(width);
             foodY = rand.nextInt(height);
 
+            /* Handle that the  */
             for (Corner c : snake) {
                 if (c.x == foodX && c.y == foodY) {
                     continue start;
                 }
             }
+
+            /* Generate a random color and add 1 to the speed */
             foodcolor = rand.nextInt(5);
             speed++;
             break;
-
         }
     }
 
+    /* Reset all the variables to their default state */
     public static void resetVars(){
         speed = 5;
         foodcolor = 0;

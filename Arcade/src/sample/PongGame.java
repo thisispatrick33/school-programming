@@ -19,39 +19,38 @@ import java.io.IOException;
 import java.util.Random;
 
 public class PongGame {
-    /* PONG VARIABLES */
-
-    private static final int widthPong = 800;
-    private static final int heightPong = 600;
+    
+    /* GAME Variables */
+    private static final int windowWidth = 800;
+    private static final int windowHeight = 600;
     private static final int PLAYER_HEIGHT = 100;
     private static final int PLAYER_WIDTH = 15;
-    private static final double BALL_R = 15;
+    private static final double BALL_Radius = 15;
     private double ballYSpeed = 0.5;
     private double ballXSpeed = 0.5;
-    private double playerOneYPos = heightPong / 2;
-    private double playerTwoYPos = heightPong / 2;
-    private double ballXPos = widthPong / 2;
-    private double ballYPos = heightPong / 2;
+    private double playerOneYPos = windowHeight / 2;
+    private double playerTwoYPos = windowHeight / 2;
+    private double ballXPos = windowWidth / 2;
+    private double ballYPos = windowHeight / 2;
     private int scoreP1 = 0;
     private int scoreP2 = 0;
     private boolean gameStarted;
     private int playerOneXPos = 0;
-    private double playerTwoXPos = widthPong - PLAYER_WIDTH;
+    private double playerTwoXPos = windowWidth - PLAYER_WIDTH;
     private long startTime = 0;
     Stage stage = new Stage();
     Controller con = new Controller();
     Timeline animation;
-    double mouseYPosition = 0;
+    int timeLimit = 120;
 
-
+    /* Main Function which starts everything */
     public void playPong(ActionEvent event) throws IOException {
-
-        stage.setTitle("P O N G");
-        //background size
-        Canvas canvas = new Canvas(widthPong, heightPong);
+        /* Set up main variables */
+        stage.setTitle("PONG GAME");
+        Canvas canvas = new Canvas(windowWidth, windowHeight);
         GraphicsContext gc = canvas.getGraphicsContext2D();
 
-        //JavaFX Timeline = free form animation defined by KeyFrames and their duration
+        /* Create a new animation which runs the game */
          animation = new Timeline(new KeyFrame(Duration.millis(10), e -> {
             try {
                 run(gc);
@@ -59,87 +58,82 @@ public class PongGame {
                 ex.printStackTrace();
             }
         }));
-        //number of cycles in animation INDEFINITE = repeat indefinitely
+        /* Set up the animation to run indefinitelly*/
         animation.setCycleCount(Timeline.INDEFINITE);
 
-      //mouse control (move and click)
-        canvas.setOnMouseMoved(e ->  playerOneYPos  = e.getY() < 50 ? playerOneYPos : (e.getY()-50 > heightPong -PLAYER_HEIGHT ? playerOneYPos : e.getY()-50));
+        /* Set up the mouse controls for player one, show the stage and run the animation*/
+        canvas.setOnMouseMoved(e ->  playerOneYPos  = e.getY() < 50 ? playerOneYPos : (e.getY()-50 > windowHeight -PLAYER_HEIGHT ? playerOneYPos : e.getY()-50));
         canvas.setOnMouseClicked(e ->  gameStarted = true);
         stage.initStyle(StageStyle.TRANSPARENT);
         stage.setScene(new Scene(new StackPane(canvas)));
         stage.show();
         animation.play();
-        // Hide this current window (if this is what you want)
         ((Node)(event.getSource())).getScene().getWindow().hide();
-
     }
 
+    /* This function is called within the animation every 10 milliseconds */
     private void run(GraphicsContext gc) throws IOException {
-        if(((System.currentTimeMillis() - startTime)/1000 >= 120) && (startTime !=0)){
+        /* If the time has run out end the game */
+        if(((System.currentTimeMillis() - startTime)/1000 >= timeLimit) && (startTime !=0)){
             stage.close();
             con.goToScore("Pong", new int[]{ scoreP1, scoreP2 });
             animation.stop();
         }
         else {
-            //set graphics
-            //set background color
+            /* Set up the background */
             gc.setFill(Color.BLACK);
-            gc.fillRect(0, 0, widthPong, heightPong);
-
-            //set text
+            gc.fillRect(0, 0, windowWidth, windowHeight);
             gc.setFill(Color.WHITE);
             gc.setFont(Font.font(25));
 
+            /* If the game is running (A click happened)*/
             if(gameStarted) {
+                /* If the start has not been set yet, set it to the current system millis time */
                 if(startTime == 0){
                     startTime = System.currentTimeMillis();
                 }
-                //set ball movement
+                /* Move the ball */
                 ballXPos+=ballXSpeed;
                 ballYPos+=ballYSpeed;
-                //simple computer opponent who is following the ball
-                if(ballXPos < widthPong - widthPong / 4) {
-                    playerTwoYPos  = ballYPos == 0 ? playerTwoYPos : ((ballYPos > heightPong-50 || ballYPos-50 < 0) ? playerTwoYPos : ballYPos-50);
+                /* Opponent movement based on the distance from the ball */
+                if(ballXPos < windowWidth - windowWidth / 4) {
+                    playerTwoYPos  = ballYPos == 0 ? playerTwoYPos : ((ballYPos > windowHeight -50 || ballYPos-50 < 0) ? playerTwoYPos : ballYPos-50);
                 }  else {
-                    if(ballYPos > 50 && ballYPos < heightPong-50)
+                    if(ballYPos > 50 && ballYPos < windowHeight -50)
                         playerTwoYPos =  ballYPos > playerTwoYPos + PLAYER_HEIGHT / 2 ? playerTwoYPos += 2 : playerTwoYPos - 2;
                 }
-                //draw the ball
-                gc.fillOval(ballXPos, ballYPos, BALL_R, BALL_R);
+                /* Show the ball */
+                gc.fillOval(ballXPos, ballYPos, BALL_Radius, BALL_Radius);
 
             } else {
-                //set the start text
+                /* Show the click prompt */
                 gc.setStroke(Color.WHITE);
                 gc.setTextAlign(TextAlignment.CENTER);
-                gc.strokeText("Click", widthPong / 2, heightPong / 2);
+                gc.strokeText("Click", windowWidth / 2, windowHeight / 2);
 
-                //reset the ball start position
-                ballXPos = widthPong / 2;
-                ballYPos = heightPong / 2;
-
-                //reset the ball speed and the direction
-
+                /* Reset the ball and its speed and direction */
+                ballXPos = windowWidth / 2;
+                ballYPos = windowHeight / 2;
                 ballXSpeed = new Random().nextInt(2) == 0 ? 1: -1;
                 ballYSpeed = new Random().nextInt(2) == 0 ? 1: -1;
             }
 
-            //makes sure the ball stays in the canvas
-            if(ballYPos > heightPong -BALL_R || ballYPos < 0) ballYSpeed *=-1;
+            /* If the ball his the ceiling reverse its Y speed */
+            if(ballYPos > windowHeight - BALL_Radius || ballYPos < 0) ballYSpeed *=-1;
 
-            //if you miss the ball, computer gets a point
+            /* Opponent gets a point */
             if(ballXPos < playerOneXPos - PLAYER_WIDTH) {
                 scoreP2++;
                 gameStarted = false;
             }
-
-            //if the computer misses the ball, you get a point
+            /* You get a point */
             if(ballXPos > playerTwoXPos + PLAYER_WIDTH) {
                 scoreP1++;
                 gameStarted = false;
             }
 
-            //increase the speed after the ball hits the player
-            if( ((ballXPos + BALL_R > playerTwoXPos) && ballYPos >= playerTwoYPos && ballYPos <= playerTwoYPos + PLAYER_HEIGHT) ||
+            /* The balls speed is increased with every hit */
+            if( ((ballXPos + BALL_Radius > playerTwoXPos) && ballYPos >= playerTwoYPos && ballYPos <= playerTwoYPos + PLAYER_HEIGHT) ||
                     ((ballXPos < playerOneXPos + PLAYER_WIDTH) && ballYPos >= playerOneYPos && ballYPos <= playerOneYPos + PLAYER_HEIGHT)) {
                 ballYSpeed += 1 * Math.signum(ballYSpeed);
                 ballXSpeed += 1 * Math.signum(ballXSpeed);
@@ -148,12 +142,12 @@ public class PongGame {
                 ballYSpeed *= new Random().nextInt(2) == 0 ? 1: -1;
             }
 
-            //draw score
+            /* Show the score and timer */
             if(startTime!=0){
-                long time = 120-((System.currentTimeMillis() - startTime)/1000);
-                gc.fillText(scoreP1 + "\t\t"+(time/60)+":"+((time-((int)(time/60)*60)) < 10 ? "0"+(time-((int)(time/60)*60)) : (time-((int)(time/60)*60)) )+"\t\t" + scoreP2, widthPong / 2, 100);
+                long time = timeLimit-((System.currentTimeMillis() - startTime)/1000);
+                gc.fillText(scoreP1 + "\t\t"+(time/60)+":"+((time-((int)(time/60)*60)) < 10 ? "0"+(time-((int)(time/60)*60)) : (time-((int)(time/60)*60)) )+"\t\t" + scoreP2, windowWidth / 2, 100);
             }
-            //draw player 1 & 2
+            /* Show the score */
             gc.fillRect(playerTwoXPos, playerTwoYPos, PLAYER_WIDTH, PLAYER_HEIGHT);
             gc.fillRect(playerOneXPos, playerOneYPos, PLAYER_WIDTH, PLAYER_HEIGHT);
         }
