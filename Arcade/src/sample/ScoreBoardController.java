@@ -60,7 +60,7 @@ public class ScoreBoardController {
         /* Loop which goes through all the lines in the .txt */
         while (true){
             String line = decrypt(in.readLine());
-            System.out.println(line);
+
             scores.add(line);
             if(line.compareTo("Space") == 0){
                 break;

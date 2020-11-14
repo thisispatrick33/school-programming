@@ -2,32 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5844b93-5bec-4aff-8d05-d7814e5003a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zenit18kkc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../18-2-2020-OPG-Vlakna/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18-2-2020-OPG-Vlakna/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arcade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arcade/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Banka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Banka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Ball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Breakout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Brick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Commons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Paddle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Sprite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/resources/ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/resources/brick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/resources/paddle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Ball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Commons.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Commons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Paddle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Paddle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/ball.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/ball.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/brick.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/brick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/paddle.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/paddle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/game/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/game/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/game/Commons.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/game/Commons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/ball.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/ball.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/brick.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/brick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/paddle.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/paddle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experimenty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experimenty/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Experimenty/src/sample/help.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Experimenty/src/sample/help.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FX_OPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FX_OPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_FX_3D/src/module-info.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/description.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/encodings.xml" beforeDir="false" />
@@ -49,21 +75,22 @@
       <change beforePath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/media/video.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Media_Player/src/media/video.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Media_Player/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/src/sample/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Media_Player/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/src/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PifPaf/PifPaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PifPaf/PifPaf.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PifPaf/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PifPaf/src/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PifPaf/src/sample/scores" beforeDir="false" afterPath="$PROJECT_DIR$/../PifPaf/src/sample/scores" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pong/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pong/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant/src/sample/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant/src/sample/Table.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SamoStudium/Zenit19ske.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SamoStudium/Zenit19ske.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zenit19kka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zenit19kka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zenit19kkb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zenit19kkb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zenit19kkc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zenit19kkc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zenit19kkd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zenit19kkd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zenit19kke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zenit19kke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zenit19kkf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zenit19kkf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SamoStudium/zenit18skf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SamoStudium/zenit18skf.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sietova_Hra/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sietova_Hra/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Snake/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Snake/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Snake/src/sample/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Snake/src/sample/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tetris/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tetris/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tetris/src/sample/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tetris/src/sample/Form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tetris/src/sample/Tetris.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tetris/src/sample/Tetris.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/VieZmiznut.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/VieZmiznut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/Vir.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Vir.java" afterDir="false" />
@@ -90,10 +117,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/zenit18skf.java">
+        <entry file="file://$PROJECT_DIR$/src/Zenit18kkc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+            <state relative-caret-position="264">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/Zenit18skc.java" />
         <option value="$PROJECT_DIR$/src/testing.java" />
         <option value="$PROJECT_DIR$/src/zenit18skf.java" />
+        <option value="$PROJECT_DIR$/src/Zenit18kkc.java" />
       </list>
     </option>
   </component>
@@ -160,6 +188,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,14 +206,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Arcade" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -201,7 +229,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.testing">
+  <component name="RunManager" selected="Application.Zenit18kkc">
+    <configuration name="Zenit18kkc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zenit18kkc" />
+      <module name="SamoStudium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Zenit18skc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Zenit18skc" />
       <module name="SamoStudium" />
@@ -211,13 +246,6 @@
     </configuration>
     <configuration name="Zenit18ske" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Zenit18ske" />
-      <module name="SamoStudium" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Zenit18ske_v2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Zenit18ske_v2" />
       <module name="SamoStudium" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -239,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zenit18kkc" />
         <item itemvalue="Application.testing" />
         <item itemvalue="Application.zenit18skf" />
         <item itemvalue="Application.Zenit18skc" />
         <item itemvalue="Application.Zenit18ske" />
-        <item itemvalue="Application.Zenit18ske_v2" />
       </list>
     </recent_temporary>
   </component>
@@ -268,18 +296,20 @@
       <workItem from="1585580298876" duration="2901000" />
       <workItem from="1585602732798" duration="1238000" />
       <workItem from="1586078209056" duration="61000" />
-      <workItem from="1586936429364" duration="3074000" />
+      <workItem from="1586936429364" duration="3410000" />
+      <workItem from="1587465098192" duration="32000" />
+      <workItem from="1589179826888" duration="2217000" />
+      <workItem from="1589614280222" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36782000" />
+    <option name="totallyTimeSpent" value="39393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2803838" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22761194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -289,7 +319,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28874025" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28874025" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -485,8 +515,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zenit18skf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="576">
           <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zenit18kkc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

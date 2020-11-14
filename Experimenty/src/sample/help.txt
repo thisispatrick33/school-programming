@@ -1,0 +1,19 @@
+1 panel
+-ak stisknete tlacitko zvaksi tak sa text AhojLabel zvaksi
+-ak stisknete tlacitko zmensi tak sa text AhojLabel zmensi
+2 panel
+-ak stisknete tlacitko dolava tak sa kruh pohne dolava
+-ak stisknete tlacitko doprava tak a kruh pohne doprava
+3 panel
+-ak stisknete tlacitko duha tak sa zafarbi stvorec na cerveno zlty gradient
+4 panel
+-ak zmenite farbu v prvom colorpickeri tak sa zmeni farba oramovanie na taku aku ste si vybrali
+-ak zmenite farbu v druhom colorpickeri tak sa zmeni farba vyplnenia na taku aku ste si vybrali
+5 panel
+- po zadani mena admin a hesla password a stisknuti tlacitka skryt tak sa skryje panel nasledovne nastane reset inputov zmeni sa text tlacitka
+- a ked potom zadate meno admin a heslo password a stisknete tlacitko odkryt tak sa panel 1 okdryje
+6 panel
+- po stisknuti tlacitka sa vystreli strela
+
+Matus Rastislav Kuzma 3.SA
+Ja som zaba.

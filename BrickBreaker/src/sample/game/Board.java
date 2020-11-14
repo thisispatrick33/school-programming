@@ -48,11 +48,11 @@ public class Board extends JPanel {
 
         int k = 0;
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 10; i++) {
 
             for (int j = 0; j < 6; j++) {
 
-                bricks[k] = new Brick(j * 40 + 30, i * 10 + 50);
+                bricks[k] = new Brick(j * 100, i * 40);
                 k++;
             }
         }

@@ -111,7 +111,7 @@ public class Controller implements Initializable {
     }
 
     public void setupMedia(){
-        String path = new File("src/media/video.mp4").getAbsolutePath();
+        String path = new File("src/media/video_KuzmaM.mp4").getAbsolutePath();
         media = new Media(new File(path).toURI().toString());
         mediaPlayer = new MediaPlayer(media);
         mediaView.setMediaPlayer(mediaPlayer);
@@ -143,13 +143,13 @@ public class Controller implements Initializable {
         }
     }
 
-    public void skip10(){
-        mediaPlayer.seek(Duration.seconds(mediaPlayer.getCurrentTime().toSeconds()+10));
-        progressSlider.setValue(progressSlider.getValue()+10);
+    public void forward(){
+        mediaPlayer.seek(Duration.seconds(mediaPlayer.getCurrentTime().toSeconds()+2));
+        progressSlider.setValue(progressSlider.getValue()+2);
     }
-    public void reverse10(){
-        mediaPlayer.seek(Duration.seconds(mediaPlayer.getCurrentTime().toSeconds()-10));
-        progressSlider.setValue(progressSlider.getValue()-10);
+    public void reverse(){
+        mediaPlayer.seek(Duration.seconds(mediaPlayer.getCurrentTime().toSeconds()-2));
+        progressSlider.setValue(progressSlider.getValue()-2);
     }
 
     public void updateChange(){

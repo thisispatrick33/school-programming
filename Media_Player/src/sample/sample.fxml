@@ -26,7 +26,7 @@
                </opaqueInsets></Slider>
             <HBox alignment="CENTER">
                <children>
-                  <ImageView fitHeight="48.0" fitWidth="55.0" onMouseClicked="#reverse10" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="48.0" fitWidth="55.0" onMouseClicked="#reverse" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../Icons/fast-reverse.png" />
                      </image>
@@ -39,7 +39,7 @@
                         <Image url="@/icons/play-button.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="48.0" fitWidth="55.0" onMouseClicked="#skip10" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="48.0" fitWidth="55.0" onMouseClicked="#forward" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../Icons/fast-forward.png" />
                      </image>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84cc57ca-cffe-4599-b7b6-e39010d4bade" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Cakaren.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tam_a_spat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Orchester/src/Lod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Orchester/src/VieZniet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18-2-2020-OPG-Vlakna/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18-2-2020-OPG-Vlakna/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arcade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arcade/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arcade/out/production/Arcade/sample/ScoreBoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arcade/out/production/Arcade/sample/ScoreBoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arcade/out/production/Arcade/sample/Scores" beforeDir="false" afterPath="$PROJECT_DIR$/../Arcade/out/production/Arcade/sample/Scores" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arcade/out/production/Arcade/sample/TetrisGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arcade/out/production/Arcade/sample/TetrisGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arcade/src/sample/ScoreBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arcade/src/sample/ScoreBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arcade/src/sample/Scores" beforeDir="false" afterPath="$PROJECT_DIR$/../Arcade/src/sample/Scores" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Banka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Banka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Ball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Breakout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Brick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Commons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Paddle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/Sprite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/game/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/resources/ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/resources/brick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BreakOut/src/sample/resources/paddle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Ball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Commons.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Commons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Paddle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/game/Paddle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/ball.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/ball.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/brick.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/brick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/paddle.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/out/production/BrickBreaker/sample/resources/paddle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/game/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/game/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/game/Commons.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/game/Commons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/ball.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/ball.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/brick.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/brick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/paddle.png" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBreaker/src/sample/resources/paddle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experimenty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Experimenty/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experimenty/src/sample/help.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Experimenty/src/sample/help.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX_OPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FX_OPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVAFX3D/src/sample/Chapter_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_FX_3D/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/Java_OPG_FX.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/out/production/Java_OPG_FX/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_OPG_FX/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurzy/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurzy/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurzy/src/sample/Mena.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurzy/src/sample/Mena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurzy/src/sample/meny" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurzy/src/sample/meny" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/media/video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/out/production/Media_Player/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Media_Player/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Media_Player/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PifPaf/PifPaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PifPaf/PifPaf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PifPaf/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PifPaf/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PifPaf/src/sample/scores" beforeDir="false" afterPath="$PROJECT_DIR$/../PifPaf/src/sample/scores" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pong/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pong/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurant/src/sample/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Restaurant/src/sample/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamoStudium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SamoStudium/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamoStudium/out/production/SamoStudium/zenit18skf.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SamoStudium/out/production/SamoStudium/zenit18skf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamoStudium/src/Zenit18kkc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SamoStudium/src/Zenit18kkc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sietova_Hra/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sietova_Hra/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Snake/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Snake/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Snake/src/sample/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Snake/src/sample/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tetris/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tetris/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tetris/src/sample/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tetris/src/sample/Form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tetris/src/sample/Tetris.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tetris/src/sample/Tetris.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/VieZmiznut.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/VieZmiznut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/Vir.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Vir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vejry3SA2/src/Vyr.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vejry3SA2/src/Vyr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/Citanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/Citanie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/Hlavna.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/Hlavna.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/Konzument.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/Konzument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/PSVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/PSVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/Producent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/Producent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/VlaknoCitacie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/VlaknoCitacie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/VlaknoVypisovacie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/VlaknoVypisovacie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vlakna/src/tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../Vlakna/src/tmp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/myQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+              <folding>
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Cakaren.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/myType.java" />
+        <option value="$PROJECT_DIR$/src/Tam_a_spat.java" />
+        <option value="$PROJECT_DIR$/src/myStack.java" />
+        <option value="$PROJECT_DIR$/src/myQueue.java" />
+        <option value="$PROJECT_DIR$/src/Cakaren.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FIFO_LIFO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FIFO_LIFO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FIFO_LIFO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FIFO_LIFO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Tam_a_spat">
+    <configuration name="Cakaren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cakaren" />
+      <module name="FIFO_LIFO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tam_a_spat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tam_a_spat" />
+      <module name="FIFO_LIFO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Tam_a_spat" />
+        <item itemvalue="Application.Cakaren" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84cc57ca-cffe-4599-b7b6-e39010d4bade" name="Default Changelist" comment="" />
+      <created>1605348219432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605348219432</updated>
+      <workItem from="1605348223608" duration="11049000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11049000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40802675" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1416">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <folding>
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+          <folding>
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tam_a_spat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+          <folding>
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cakaren.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

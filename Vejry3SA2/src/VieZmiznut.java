@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public interface VieZmiznut {
 
-public class VieZmiznut {
+    public void zmizni();
+    public String coRobis();
+
 }

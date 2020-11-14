@@ -2,10 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87f2f870-902b-490e-812f-813bc15aa4a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experimenty/src/sample/help.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kurzy/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kurzy/src/sample/Mena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kurzy/src/sample/meny" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vejry3SA2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vejry3SA2/src/VieZmiznut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vejry3SA2/src/Vir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vejry3SA2/src/Vyr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reakcna_Doba/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Reakcna_Doba/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reakcna_Doba/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Reakcna_Doba/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Banka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Experimenty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Experimenty/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FX_OPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FX_OPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/Java_OPG_FX.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/out/production/Java_OPG_FX/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OPG_FX/src/sample/sample.fxml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +36,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -33,7 +54,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -43,7 +64,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -51,36 +71,11 @@
               <item name="school-programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="school-programming" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="school-programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="school-programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Reakcna_Doba" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school-programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="school-programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Reakcna_Doba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school-programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="school-programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Reakcna_Doba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school-programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="school-programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Reakcna_Doba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -119,20 +114,22 @@
       <workItem from="1569908197823" duration="93000" />
       <workItem from="1569908855915" duration="11000" />
       <workItem from="1569908908917" duration="105000" />
+      <workItem from="1578982731938" duration="56000" />
+      <workItem from="1581335014089" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287000" />
+    <option name="totallyTimeSpent" value="370000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.2596774" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.26279318" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" />
@@ -146,7 +143,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34952483" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35861322" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Maven" order="1" />

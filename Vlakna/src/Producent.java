@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+public class Producent extends Thread{
+    private Citanie c;
 
-public class Producent {
+    Producent(Citanie c){this.c = c;}
+
+    public void run(){
+        while (!interrupted()){
+            c.nacitaj();
+        }
+        System.out.println("KOniec nacitania");
+    }
 }

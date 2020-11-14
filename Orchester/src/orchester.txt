@@ -1,0 +1,14 @@
+S,husle,2000,tidli-daj,2,4,GDAE,1.husle
+S,husle,1500,tidli-tidli,2,4,GDAE,2.husle
+r,bicie,1500,bum-prásk,1,9
+s,gitara akustická,500,brnk-brnk,2,6,EH#GDAE
+k,keyboard,1000,waa-waa,4,21
+d,saxofón,4500,turururááá,21,4,G#
+u,Jožko,Púčik,2.husle,200
+u,Marek,Púčik,2.husle,200
+u,Michal,Púčik,2.husle,200
+u,Miško,Guľôčka,1.husle,300
+u,Ferko,Motúzik,3.husle,150
+u,Janko,Hraško,harfa,250
+u,Marián,Varga,gitara akustická,300
+u,Martin,Valihora,bicie,234.80
